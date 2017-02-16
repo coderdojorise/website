@@ -2,7 +2,7 @@
 
 This is the official repository for the new CoderDojo London's website: https://coderdojo.london
 
-This `README` file should have a good short description on how to get you started, however, it is **incomplete** so let us know if you need any assitance by opening an issue.
+This `README` file should have a good short description on how to get you started, however, it is **incomplete** so let us know if you need any assistance by opening an issue.
 
 ## The project
 The current project has a bespoke PHP framework which is currently being tested for public release, the project is helping build it. (More information at a later date).
