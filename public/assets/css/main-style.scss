@@ -228,33 +228,17 @@ div.resource a.resource-overlay h2.resource-title {
 ///////////////////////
 // RESOURCES PAGES ///
 /////////////////////
-div.container a.resource-button {
-	cursor: pointer;
+a.resource-button {
 	background: $cd-red;
-	border-radius: 15px;
-	padding: 16px;
+	border-radius: 12px;
 	text-align: center;
-	color: #FFFFFF;
 	font-size: 1.7em;
-	margin-bottom: 30px;
-}
-div.resources-table-container {
-	max-height: 210px;
-	overflow-y: scroll;
-	overflow-x: hidden;
-}
-div.resources-table-container a.btn {
-	background: $cd-green;
+	cursor: pointer;
+	padding: 16px;
 	color: #FFFFFF;
-	padding: 0 15px;
-}
-div.resources-table-container i.fa-check {
-	margin-left: 15px;
-	color: $cd-green;
-}
-div.resources-table-container i.fa-times {
-	margin-left: 15px;
-	color: $cd-red;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
 }
 div.resource-mentors div.mentor {
 	padding: 30px;
@@ -281,6 +265,22 @@ div > #play-area > #circle-sprite {
 	left: 122px;
 	top: 50px;
 	background: $cd-red;
+}
+
+// Resources Table
+div.resources-table-container {
+	overflow-x: auto;
+	max-height: 250px;
+	overflow-y: auto;
+}
+div.resources-table-container a.btn {
+	background: $cd-green;
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+div.resources-table-container i.fa-check {
+	margin-left: 15px;
+	color: $cd-green;
 }
 
 //////////////////////
@@ -427,6 +427,10 @@ div.newsletter-form-container div.response-success h3 {
 		margin-top: 50px;
 		font-size: 24px;
 	}
+	a.resource-button {
+		font-size: 1.5em;
+		width: 95%;
+	}
 	/* Bootstrap overrides */
 	.navbar > .container .navbar-brand,
 	.navbar > .container-fluid .navbar-brand {
@@ -434,6 +438,7 @@ div.newsletter-form-container div.response-success h3 {
 	}
 }
 
+/* Mobile Navigation Mode */
 @media (max-width: 767px) {
 	body {
 		padding-top: 65px;
@@ -452,6 +457,12 @@ div.newsletter-form-container div.response-success h3 {
 	div.resource a.resource-overlay h2.resource-title {
 		margin-top: 100px;
 		font-size: 42px;
+	}
+	a.resource-button {
+		margin: 10px auto;
+		padding: 10px;
+		font-size: 1.5em;
+		width: 80%;
 	}
 	/* Bootstrap overrides */
 	.navbar-fixed-top .navbar-collapse,
@@ -507,5 +518,9 @@ div.newsletter-form-container div.response-success h3 {
 	div.resource a.resource-overlay h2.resource-title {
 		margin-top: 40px;
 		font-size: 18px;
+	}
+	a.resource-button {
+		font-size: 1.2em;
+		width: 100%;
 	}
 }
