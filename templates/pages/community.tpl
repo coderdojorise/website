@@ -4,8 +4,10 @@
 
 {block name=body}
 
-<div class="page-banner community">
-	<h1>Community</h1>
+<div class="heading-banner-container banner-inverse heading-black">
+	<div class="heading-banner">
+		<h1>Community</h1>
+	</div>
 </div>
 
 <div class="container community">

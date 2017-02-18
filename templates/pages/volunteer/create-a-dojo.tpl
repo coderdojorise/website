@@ -4,8 +4,10 @@
 
 {block name=body}
 
-<div class="page-banner volunteer">
-	<h1>Create a Dojo</h1>
+<div class="heading-banner-container heading-blue">
+	<div class="heading-banner">
+		<h1>Create a Dojo</h1>
+	</div>
 </div>
 
 <div class="container volunteer">

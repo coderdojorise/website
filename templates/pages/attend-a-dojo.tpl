@@ -4,6 +4,12 @@
 
 {block name=body}
 
+<div class="heading-banner-container heading-green">
+	<div class="heading-banner">
+		<h1>Attend a Dojo</h1>
+	</div>
+</div>
+
 <div class="container attend">
 	{$events_tbl}
 	{include file="partials/newsletter_form.tpl" list="main" text="Sign up to receive an email for upcoming London Dojos"}

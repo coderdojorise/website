@@ -4,8 +4,10 @@
 
 {block name=body}
 
-<div class="page-banner resources">
-	<h1>Scratch</h1>
+<div class="heading-banner-container heading-red">
+	<div class="heading-banner">
+		<h1>Scratch</h1>
+	</div>
 </div>
 
 <div class="container">

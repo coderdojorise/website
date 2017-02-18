@@ -4,8 +4,10 @@
 
 {block name=body}
 
-<div class="page-banner resources">
-	<h1>Resources</h1>
+<div class="heading-banner-container heading-red">
+	<div class="heading-banner">
+		<h1>Resources</h1>
+	</div>
 </div>
 
 <div class="container">
@@ -60,20 +62,6 @@
 		</div>
 
 		<div class="col-sm-3 col-xs-6 resource">
-			<img src="/assets/imgs/logos/unity.png" class="resource-logo" alt="Unity" />
-			<a class="resource-overlay" href="/resources/unity" title="Unity resources">
-				<h2 class="resource-title">Unity</h2>
-			</a>
-		</div>
-
-		<div class="col-sm-3 col-xs-6 resource">
-			<img src="/assets/imgs/logos/html.png" class="resource-logo" alt="HTML language" />
-			<a class="resource-overlay" href="/resources/html" title="HTML resources">
-				<h2 class="resource-title">HTML</h2>
-			</a>
-		</div>
-
-		<div class="col-sm-3 col-xs-6 resource">
 			<img src="/assets/imgs/logos/javascript.png" class="resource-logo" alt="JavaScript programming language" />
 			<a class="resource-overlay" href="/resources/javascript" title="JavaScript resources">
 				<h2 class="resource-title">JavaScript</h2>
@@ -94,23 +82,37 @@
 				<h2 class="resource-title">iDEA</h2>
 			</a>
 		</div>
+<!--
+		<div class="col-sm-3 col-xs-6 resource">
+			<img src="/assets/imgs/logos/unity.png" class="resource-logo" alt="Unity" />
+			<a class="resource-overlay" href="/resources/unity" title="Unity resources">
+				<h2 class="resource-title">Unity</h2>
+			</a>
+		</div>
 
+		<div class="col-sm-3 col-xs-6 resource">
+			<img src="/assets/imgs/logos/html.png" class="resource-logo" alt="HTML language" />
+			<a class="resource-overlay" href="/resources/html" title="HTML resources">
+				<h2 class="resource-title">HTML</h2>
+			</a>
+		</div>
+
+		<div class="col-sm-3 col-xs-6 resource">
+			<img src="/assets/imgs/logos/apple-swift.png" class="resource-logo" alt="Unity" />
+			<a class="resource-overlay" href="/resources/apple-swift" title="Unity resources">
+				<h2 class="resource-title">Apple Swift</h2>
+			</a>
+		</div>
+
+		<div class="col-sm-3 col-xs-6 resource">
+			<img src="/assets/imgs/logos/html.png" class="resource-logo" alt="HTML language" />
+			<a class="resource-overlay" href="/resources/lego" title="HTML resources">
+				<h2 class="resource-title">LEGO Minecraft</h2>
+			</a>
+		</div>
+-->
 	</div>
 
 </div>
-
-    <!-- <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 resource">
-      <img src="/assets/imgs/logos/apple-swift-logo.png" />
-      <a class="resource-overlay" href="/resources/apple-swift">
-        <h1 class="resource-title">Apple Swift</h1 >
-      </a>
-  </div> -->
-  <!-- <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 resource">
-      <img src="http://placehold.it/390x300" />
-      <a class="resource-overlay" href="/resources/lego">
-        <h1 class="resource-title">LEGO Minecraft</h1 >
-      </a>
-    </div> -->
 
 {/block}

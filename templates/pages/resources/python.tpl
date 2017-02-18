@@ -4,8 +4,10 @@
 
 {block name=body}
 
-<div class="page-banner resources">
-  <h1>Python</h1>
+<div class="heading-banner-container heading-red">
+  <div class="heading-banner">
+    <h1>Python</h1>
+  </div>
 </div>
 
 <div class="container">
@@ -16,13 +18,16 @@
   <p>Many things can be accomplished with Python such as making websites, creating your own games, creating your own web crawler and much much more.</p>
 
   <div class="row">
-    <a href="https://www.python.org/downloads/" target="_blank" class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 resource-button">
-      Get Python 3
-    </a>
-
-    <a href="https://trinket.io/" target="_blank" class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 resource-button">
-      Explore on Trinket
-    </a>
+    <div class="col-sm-6">
+      <a href="https://www.python.org/downloads/" target="_blank" class="resource-button">
+        Get Python 3
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <a href="https://trinket.io/" target="_blank" class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 resource-button">
+        Explore on Trinket
+      </a>
+    </div>
   </div>
 
   <h3>Getting Started</h3>
@@ -48,39 +53,9 @@
     <div class="col-xs-12">
       <h3>Coding Cards</h3>
     </div>
-    <div class="col-xs-10 col-xs-offset-1">
+    <div class="col-xs-12">
       {include file="partials/resources_table.tpl" type="python"}
     </div>
   </div>
-  <!-- <div class="row">
-    <div class="col-xs-12">
-      <h3>Mentor/s that are great at this</h3>
-      <div class="row resource-mentors">
-        <div class="col-xs-6 col-md-3 mentor">
-          <img src="https://media.licdn.com/media/AAEAAQAAAAAAAATIAAAAJDZhNGIxMDZjLTM2NTMtNDgxYS04NGEyLWRiZWE2YmRiNTM3Mw.jpg" class="img-responsive img-circle" data-toggle="popover" title="Matt Hart" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum dictum nisi, vel dictum lacus efficitur nec. Cras sit amet sem lacus. Phasellus sed porta mi." data-placement="right" />
-          <h4>Matthew Hart</h4>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- <div class="row">
-    <div class="col-xs-12">
-      <h3>Partner/s who can support you with Python</h3>
-      <div class="row partners">
-        <div class="col-md-5 col-md-offset-0 col-xs-10 col-xs-offset-1 partner">
-          <img src="http://placehold.it/700x300" class="img-responsive" alt="Getting Started Image"/>
-        </div>
-        <div class="col-md-7 col-md-offset-0 col-xs-10 col-xs-offset-1">
-          <p>Trinket</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
 </div>
-<script>
-$(function () {
-$('[data-toggle="popover"]').popover()
-})
-</script>
-
 {/block}
