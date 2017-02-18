@@ -24,14 +24,14 @@
 			<p>CoderDojo is a great learning experience for our mentors as well the young people, many enjoy networking with other mentors and collaborating.</p>
 		</div>
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-user-plus"></i></div>
 		</div>
 	</div>
 
 	<hr />
 	<div class="row">
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-question"></i></div>
 		</div>
 		<div class="col-sm-9">
 			<h3>How can I assist?</h3>
@@ -46,14 +46,14 @@
 			<p>No problem! We need awesome people to help with registration, assist younger ninja's with comprehension and explaining (E.g. what a negative number is) or just to be around to encourage them to find the answer themselves. Any assistance is always appreciated!</p>
 		</div>
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/what-will-kids-learn.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-lightbulb-o"></i></div>
 		</div>
 	</div>
 
 	<hr />
 	<div class="row">
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-check-square-o"></i></div>
 		</div>
 		<div class="col-sm-9">
 			<h3>Ready made resources!</h3>

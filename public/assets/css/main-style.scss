@@ -25,6 +25,46 @@ img.topic-icon {
 	margin: 0 auto;
 }
 
+/////////////
+// ICONS ///
+///////////
+div.icon-container {
+	margin: 0 auto;
+	border-radius: 50%;
+	text-align: center;
+	background: #888;
+	height: 180px;
+	width: 180px;
+	color: #FFF;
+}
+div.icon-container.green-icon {
+	background: $cd-green;
+}
+div.icon-container.blue-icon {
+	background: $cd-blue;
+}
+div.icon-container span.fa-stack {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+div.icon-container span.fa-stack i.fa-stack-1x {
+	font-size: 100px;
+}
+div.icon-container i.fa {
+	line-height: 180px;
+	font-size: 130px;
+}
+// Custom needed styles
+div.icon-container i.fa.fa-users,
+div.icon-container i.fa.fa-rocket,
+div.icon-container i.fa.fa-user-plus {
+	font-size: 110px;
+}
+div.icon-container i.fa.fa-building {
+	padding-left: 10px;
+}
+
 //////////////
 // NAVBAR ///
 ////////////

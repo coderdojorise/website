@@ -17,13 +17,14 @@
 			<p>We do not follow the National curriculum, nor do we provide homework. Everyone seems to learn best when they can play and have fun.</p>
 		</div>
 		<div class="col-sm-3 hidden-xs">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/what-will-kids-learn.png" />
+			<div class="icon-container green-icon"><i class="fa fa-info"></i></div>
 		</div>
 	</div>
 
+	<hr />
 	<div class="row">
 		<div class="col-sm-3 hidden-xs">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/bring-computer.png" />
+			<div class="icon-container green-icon"><i class="fa fa-laptop"></i></div>
 		</div>
 		<div class="col-sm-9 text-right">
 			<h3 class="faq-title">What does my child need to bring?</h3>
@@ -31,6 +32,7 @@
 		</div>
 	</div>
 
+	<hr />
 	<div class="row">
 		<div class="col-sm-9">
 			<h3 class="faq-title">Do I need to register?</h3>
@@ -39,13 +41,14 @@
 			<p>Most registrations will be via Eventbrite.</p>
 		</div>
 		<div class="col-sm-3 hidden-xs">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/do-i-sign-up.png" />
+			<div class="icon-container green-icon"><i class="fa fa-ticket"></i></div>
 		</div>
 	</div>
 
+	<hr />
 	<div class="row">
 		<div class="col-sm-3 hidden-xs">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/can-parents-assist.png" />
+			<div class="icon-container green-icon"><i class="fa fa-times-circle"></i></div>
 		</div>
 		<div class="col-sm-9 text-right">
 			<h3 class="faq-title">What if I have registered but cannot make it after all?</h3>
@@ -54,19 +57,26 @@
 		</div>
 	</div>
 
+	<hr />
 	<div class="row">
 		<div class="col-sm-9">
 			<h3 class="faq-title">Do parents need to stay during the Dojo?</h3>
 			<p>Yes, if your child's age is below 14. Even if your child is older, we always promote parents being around to be involved.</p>
 		</div>
 		<div class="col-sm-3 hidden-xs">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/do-parents-stay.png" />
+			<div class="icon-container green-icon"><i class="fa fa-users"></i></div>
 		</div>
 	</div>
 
+	<hr />
 	<div class="row">
 		<div class="col-sm-3 hidden-xs">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/do-i-pay.png" />
+			<div class="icon-container green-icon">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-money fa-stack-2x"></i>
+					<i class="fa fa-times fa-stack-1x" style="color:#EA4737;opacity:0.8"></i>
+				</span>
+			</div>
 		</div>
 		<div class="col-sm-9 text-right">
 			<h3 class="faq-title">Does it cost anything?</h3>

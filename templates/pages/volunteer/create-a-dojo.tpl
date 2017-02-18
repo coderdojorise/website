@@ -29,14 +29,14 @@
 			<p>Starting your own Dojo is fun and rewarding. Making the choice to grow a community and join thousands of community members worldwide will forge lifelong skills and friendships. It's easy to follow our step by step guide to getting started when you jump in now!</p>
 		</div>
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-rocket"></i></div>
 		</div>
 	</div>
 
 	<hr />
 	<div class="row">
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png"/>
+			<div class="icon-container blue-icon"><i class="fa fa-trophy"></i></div>
 		</div>
 		<div class="col-sm-9 text-right">
 			<h3>Elect your Champion</h3>
@@ -51,14 +51,14 @@
 			<p>A Dojo needs a team of volunteers. Usually a mix of technical Mentors and non-technical Volunteers. We recommend at least 3 volunteers for your first Dojo</p>
 		</div>
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-users"></i></div>
 		</div>
 	</div>
 
 	<hr />
 	<div class="row">
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-venue.png"/>
+			<div class="icon-container blue-icon"><i class="fa fa-building"></i></div>
 		</div>
 		<div class="col-sm-9 text-right">
 			<h3>Find your Venue</h3>
@@ -73,14 +73,14 @@
 			<p>Meet with your team, pick a date and plan the first few sessions. There are lots of learning <a href="/resources">resources</a> available on this website for you to use. You can also create your own if you need something else.</p>
 		</div>
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-sitemap"></i></div>
 		</div>
 	</div>
 
 	<hr />
 	<div class="row">
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png"/>
+			<div class="icon-container blue-icon"><i class="fa fa-certificate"></i></div>
 		</div>
 		<div class="col-sm-9 text-right">
 			<h3>Promote your Dojo</h3>
@@ -95,7 +95,7 @@
 			<p>Once you have registered and been verified. Put together a plan, make sure your team is prepped and you have a group eager to become CoderDojo Ninjas. Then you are ready to begin the real fun!</p>
 		</div>
 		<div class="col-sm-3">
-			<img class="img-responsive topic-icon" src="/assets/imgs/topic-icons/find-a-team.png" />
+			<div class="icon-container blue-icon"><i class="fa fa-code"></i></div>
 		</div>
 	</div>
 
