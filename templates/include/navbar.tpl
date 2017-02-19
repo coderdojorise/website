@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="/">
-				<img class="logo" src="/assets/imgs/cd-logo-london.png"/>
+				<img class="logo" src="/assets/imgs/cd-london-logo.png"/>
 			</a>
 		</div>
 
