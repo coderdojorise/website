@@ -61,6 +61,7 @@
 			</div>
 		</div>
 	</section>
+	<hr />
 
 	<!-- DIGITAL BADGES LINK HERE -->
 	<div class="homepage-sponsored">
