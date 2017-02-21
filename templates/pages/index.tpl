@@ -6,7 +6,7 @@
 
 <div class="jumbotron jumbotron-home">
 	<div class="container">
-		<img src="/assets/imgs/sign_250.png" style="max-width: 200px;" alt="coderdojo-logo" />
+		<img src="/assets/imgs/sign_250.png" class="cd-sign" alt="coderdojo-logo" />
 		<h1><strong class="cd-orange">Be cool</strong> and <em>get involved</em></h1>
 		<p>CoderDojo is a volunteer led movement that aims to help everyone in improving their coding abilities, from as early as 4 years old all the way up to 400 years old - <em>you can help!</em></p>
 	</div>

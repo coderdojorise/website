@@ -278,6 +278,9 @@ div.container h1.page-header.community {
 div.jumbotron-home {
 	text-align: center;
 }
+div.jumbotron-home img.cd-sign {
+	max-width: 200px;
+}
 section.homepage {}
 section.homepage h2 {
 	text-shadow: 1px 1px 3px;
@@ -550,6 +553,9 @@ div.newsletter-form-container div.response-success h3 {
 		font-size: 1.5em;
 		width: 95%;
 	}
+	section.homepage p {
+		font-size: 22px;
+	}
 	/* Bootstrap overrides */
 	.navbar > .container .navbar-brand,
 	.navbar > .container-fluid .navbar-brand {
@@ -582,6 +588,12 @@ div.newsletter-form-container div.response-success h3 {
 		padding: 10px;
 		font-size: 1.5em;
 		width: 80%;
+	}
+	section.homepage h2 {
+		font-size: 36px;
+	}
+	section.homepage p {
+		font-size: 18px;
 	}
 	/* Bootstrap overrides */
 	.navbar-fixed-top .navbar-collapse,
@@ -618,11 +630,39 @@ div.newsletter-form-container div.response-success h3 {
 	div.attend div.newsletter-form-container input[type=email] {
 		min-width: initial;
 	}
+	div.jumbotron-home {
+		padding: 10px;
+	}
+	div.jumbotron-home img.cd-sign {
+		max-width: 100px;
+	}
+	div.jumbotron-home h1 {
+		font-size: 32px;
+	}
+	div.jumbotron-home p {
+		font-size: 14px;
+	}
+	section.homepage h2 {
+		font-size: 32px;
+		margin-top: 0;
+	}
+	section.homepage h2 i.fa {
+		font-size: 56px;
+	}
+	section.homepage p {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 460px) {
 	div.resource a.resource-overlay h2.resource-title {
 		font-size: 24px
+	}
+}
+
+@media (max-width: 420px) {
+	section.homepage h2 {
+		font-size: 28px;
 	}
 }
 
