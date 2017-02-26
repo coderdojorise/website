@@ -1,6 +1,10 @@
 {extends file="include/master.tpl"}
 
-{block name=head}{/block}
+{block name=head}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+{/block}
 
 {block name=body}
 

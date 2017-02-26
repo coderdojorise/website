@@ -1,6 +1,10 @@
 {extends file="include/master.tpl"}
 
-{block name=head}{/block}
+{block name=head}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+{/block}
 
 {block name=body}
 
@@ -34,10 +38,10 @@
 	<hr />
 	<h3>Getting Started</h3>
 	<div class="row">
-		<div class="col-sm-5 col-xs-7">
+		<div class="col-sm-5 hidden-xs">
 			<img src="/assets/imgs/getting-started/scratch-getting-started.png" class="img-responsive" alt="Getting Started Image"/>
 		</div>
-		<div class="col-sm-7 col-xs-5">
+		<div class="col-sm-7 col-xs-12">
 			<p>The Beetle Game is a great game for first time ninjas that have never used Scratch before or those that need to refresh their skills.</p>
 			<p>You can find the Beetle game and many other coding cards in the table below.</p>
 			<p>Have fun!</p>

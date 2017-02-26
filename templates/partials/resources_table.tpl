@@ -1,8 +1,10 @@
 <div class="resources-table-container" data-type="{$type}">
-	Loading...
+	<span id="loading-data"><i class="fa fa-spin fa-spinner"></i> Loading, please wait...</span>
+	<table id="resources-data" class="table table-striped table-condensed" cellspacing="0" width="100%"></table>
 </div>
 {literal}
 <script type="text/javascript">
+	var MIN_HEIGHT = 0;
 	$(document).ready(function()
 	{
 		var tableContainer = $('div.resources-table-container');
@@ -13,21 +15,10 @@
 		{
 			if (response.status === 'success')
 			{
-				// Build the table
-				var tableHTML = '<table class="table table-striped table-condensed">';
-				// Headings
-				tableHTML += '<thead><tr>';
-				tableHTML += '<th>Title</th>';
-				tableHTML += '<th>Level</th>';
-				tableHTML += '<th>Description</th>';
-				tableHTML += '<th>Type</th>';
-				tableHTML += '<th>Verified</th>';
-				tableHTML += '<th></th>';
-				tableHTML += '</tr></thead>';
-				// Response
-				tableHTML += '<tbody>';
+				var dataSet = [];
 				for (var i = 0; i < response.results.length; i++)
 				{
+
 					var curResult = response.results[i];
 					var verifiedIcon = curResult.verified ? '<i class="fa fa-check"></i>' : '';
 					var level = 'Starting Out';
@@ -40,18 +31,57 @@
 							level = 'Very Experienced';
 							break;
 					}
-					tableHTML += '<tr>';
-					tableHTML += '<td>' + curResult.title + '</td>';
-					tableHTML += '<td>' + level + '</td>';
-					tableHTML += '<td>' + curResult.description + '</td>';
-					tableHTML += '<td>' + curResult.type + '</td>';
-					tableHTML += '<td>' + verifiedIcon + '</td>';
-					tableHTML += '<td><a href="' + curResult.link + '" class="btn" target="_blank">Get</a></td>';
-					tableHTML += '</tr>';
+
+					var curData = [];
+					curData.push(curResult.title);
+					curData.push(level);
+					curData.push(curResult.description);
+					curData.push(curResult.type);
+					curData.push(verifiedIcon);
+					curData.push('<a href="' + curResult.link + '" class="btn" target="_blank">Get</a>');
+
+					dataSet.push(curData);
 				}
-				tableHTML += '</tbody>';
-				tableHTML += '</table>';
-				tableContainer.html(tableHTML);
+				var dataTablesOptions = {
+					data: dataSet,
+					columns: [
+					{
+						title: 'Title',
+						className: 'col-title'
+					}, {
+						title: 'Level',
+						className: 'col-level'
+					}, {
+						title: 'Description',
+						className: 'col-description'
+					}, {
+						title: 'Type',
+						className: 'col-type'
+					}, {
+						title: 'Verified',
+						className: 'col-verified',
+						searchable: false
+					}, {
+						title: '',
+						className: 'col-getbtn',
+						orderable: false,
+						searchable: false
+					}
+					],
+					drawCallback: function()
+					{
+						if (MIN_HEIGHT === 0)
+						{
+							setTimeout(function()
+							{
+								MIN_HEIGHT = $('div.resources-table-container').height();
+								$('div.resources-table-container').css('min-height', MIN_HEIGHT);
+							}, 1000);
+						}
+					}
+				};
+				$('#loading-data').fadeOut();
+				$('#resources-data').DataTable(dataTablesOptions);
 			}
 		});
 	});

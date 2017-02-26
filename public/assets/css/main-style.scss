@@ -405,11 +405,7 @@ div > #play-area > #circle-sprite {
 }
 
 // Resources Table
-div.resources-table-container {
-	overflow-x: auto;
-	max-height: 250px;
-	overflow-y: auto;
-}
+div.resources-table-container {}
 div.resources-table-container a.btn {
 	background: $cd-green;
 	padding: 0 15px;
@@ -419,6 +415,19 @@ div.resources-table-container i.fa-check {
 	margin-left: 15px;
 	color: $cd-green;
 }
+div.resources-table-container table#resources-data {}
+div.resources-table-container table#resources-data td.col-title {
+	min-width: 110px;
+}
+div.resources-table-container table#resources-data td.col-level {
+	min-width: 110px;
+}
+div.resources-table-container table#resources-data td.col-description {}
+div.resources-table-container table#resources-data td.col-type {
+	min-width: 90px;
+}
+div.resources-table-container table#resources-data td.col-verified {}
+div.resources-table-container table#resources-data td.col-getbtn {}
 
 //////////////////////
 // VOLUNTEER PAGE ///
@@ -655,6 +664,15 @@ div.newsletter-form-container div.response-success h3 {
 	div.events-table-element table tr td a.btn {
 		padding: 5px 15px;
 	}
+	div.resources-table-container table#resources-data td.col-title {
+		min-width: initial;
+	}
+	div.resources-table-container table#resources-data td.col-level {
+		min-width: initial;
+	}
+	div.resources-table-container table#resources-data .col-verified {
+		display: none;
+	}
 	div.resource a.resource-overlay h2.resource-title {
 		margin-top: 100px;
 		font-size: 42px;
@@ -728,11 +746,24 @@ div.newsletter-form-container div.response-success h3 {
 	section.homepage p {
 		font-size: 14px;
 	}
+	div.resources-table-container table#resources-data td.col-type {
+		min-width: initial;
+	}
+	div.resources-table-container table#resources-data .col-description {
+		max-width: 120px;
+		overflow: hidden;
+		word-wrap: break-word;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
 }
 
 @media (max-width: 460px) {
 	div.resource a.resource-overlay h2.resource-title {
 		font-size: 24px
+	}
+	div.resources-table-container table#resources-data .col-level {
+		display: none;
 	}
 }
 
@@ -757,6 +788,9 @@ div.newsletter-form-container div.response-success h3 {
 	a.resource-button {
 		font-size: 1.2em;
 		width: 100%;
+	}
+	div.resources-table-container table#resources-data .col-type {
+		display: none;
 	}
 	div.col-xs-6 {
 		padding: 0 5px;
