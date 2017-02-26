@@ -136,7 +136,8 @@ function handleSupporters($supporter)
 		'mozilla' => 'Mozilla',
 		'apple' => 'Apple',
 		'raspberry-pi' => 'Raspberry Pi',
-		'lego' => 'LEGO'
+		'lego' => 'LEGO',
+		'idea' => 'iDEA'
 	];
 	$valid_keys = array_keys($valid_supporters);
 	if (in_array($supporter, $valid_keys))
@@ -144,7 +145,8 @@ function handleSupporters($supporter)
 		$parent_page = 'supporters';
 		$template_path = 'pages/' . $parent_page . '/' . $supporter . '.tpl';
 		$title = $valid_supporters[$supporter];
-		handleSubPage($parent_page, $supporter, $title);
+		$page_title = $title . ' - Our Supporters';
+		handleSubPage($parent_page, $supporter, $title, $page_title);
 	}
 	handle404Page();
 }

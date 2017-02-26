@@ -10,7 +10,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container resources">
 
 	<div>
 		<p>Awesome and the wonderful friends of CoderDojo have provided some great resources for you to learn, explore and enjoy.</p>
