@@ -62,14 +62,16 @@
 
 	<hr />
 	<div class="row">
+		<div class="col-sm-8">
+			<h3>CoderDojo March Campaign</h3>
+			<p>Be awarded by the Duke of York. Have the opportunity to be officially invited to Palace. Show off your Certificate of Excellence to everyone!</p>
+			<h5><strong>How?</strong></h5>
+			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills. Check them out <a href="/resources/idea">here</a> along with the <a href="#">criteria for winning</a>.</p>
+			<p>Ensure that your parents understand them as well, maybe you can show them how you are going to win?</p>
+			<a href="/resources/idea" class="btn btn-info">Go to the Badges</a>
+		</div>
 		<div class="col-sm-4 hidden-xs">
 			<div class="icon-container purple-icon"><i class="fa fa-fort-awesome"></i></div>
-		</div>
-		<div class="col-sm-8 text-right">
-			<h3>Ger Invited to the Palace!</h3>
-			<p>The iDEA team is looking for the most active member of the CoderDojo activity currently doing their badges. If you are a member of CoderDojo and the Inspiring Digital Enterprise Award (iDEA) you may be entitled to a visit to win an award directly from the Duke of York!</p>
-			<p>Complete as many badges as possible. You can find CoderDojo's exclusive badges and more from the iDEA site on our resources page.</p>
-			<a href="/resources/idea" class="btn btn-info">Find badges here</a>
 		</div>
 	</div>
 
