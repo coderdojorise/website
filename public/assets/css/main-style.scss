@@ -226,13 +226,20 @@ div.heading-banner-container.banner-inverse div.heading-banner {
 	background-image: url('/assets/imgs/heading-backgrounds/heading_pattern_light.png');
 }
 div.heading-banner-container div.heading-banner h1 {
-	text-shadow: 2px 2px 0px #666;
+	text-shadow: 2px 2px 3px #222;
 	font-weight: bold;
 	color: #FFFFFF;
 	margin: 0;
 }
+div.heading-banner-container div.heading-banner h2 {
+	text-shadow: 1px 1px 2px #000;
+	margin-top: 11px;
+	margin-bottom: 0;
+	font-size: 30px;
+	color: #FFF;
+}
 div.heading-banner-container.banner-inverse div.heading-banner h1 {
-	text-shadow: 2px 2px 0px #222;
+	text-shadow: 3px 3px 2px #222;
 }
 div.heading-banner-container.heading-white div.heading-banner h1 {
 	text-shadow: none;
@@ -243,10 +250,10 @@ div.heading-banner-container.heading-white div.heading-banner h1 {
 // PAGE HEADER ///
 /////////////////
 div.container h1.page-header {
+	text-align: center;
+	margin-top: 30px;
 	border: none;
 	margin: 0;
-	margin-top: 30px;
-	text-align: center;
 }
 div.container h1.page-header.about-us {
 	color: $cd-orange;
