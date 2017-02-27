@@ -135,7 +135,7 @@ function handleSupporters($supporter)
 		'kano' => 'Kano Computing',
 		'mozilla' => 'Mozilla',
 		'apple' => 'Apple',
-		'raspberry-pi' => 'Raspberry Pi',
+		'raspberry-pi' => 'Raspberry Pi &amp; The Pi Hut Offers',
 		'lego' => 'LEGO',
 		'idea' => 'iDEA'
 	];
