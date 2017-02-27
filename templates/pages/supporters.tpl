@@ -18,14 +18,14 @@
 
 		<div class="col-xs-4 supporter resource">
 			<img src="/assets/imgs/logos/raspberry-pi.png" class="resource-logo" alt="Raspberry Pi" />
-			<a class="resource-overlay" href="#">
+			<a class="resource-overlay" href="/supporters/raspberry-pi">
 				<h2 class="resource-title">Raspberry Pi</h2>
 			</a>
 		</div>
 
 		<div class="col-xs-4 supporter resource">
 			<img src="https://pbs.twimg.com/profile_images/459370515426074626/33KBfE8u.jpeg"  class="resource-logo" alt="The Pi Hut" />
-			<a class="resource-overlay" href="#">
+			<a class="resource-overlay" href="/supporters/raspberry-pi">
 				<h2 class="resource-title">The Pi Hut</h2>
 			</a>
 		</div>
