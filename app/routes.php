@@ -31,4 +31,6 @@ $router->map('GET', '/volunteer/assist-a-dojo', 'handleAssistADojo', 'assist_doj
 
 $router->map('GET', '/volunteer/create-a-dojo', 'handleCreateADojo', 'create_dojo');
 
+$router->map('GET', '/supporters/idea/march-competition', 'handleIDEAMarch2017', 'idea_march_2017');
+
 handleRouting($router);

@@ -57,11 +57,14 @@
 		<div class="col-xs-12">
 			<h3>Supporters who can assist you with iDEA</h3>
 			<div class="row partners">
-				<div class="col-md-12 partner text-center">
-					<a href="/supporters/idea">
-						<img src="https://idea.org.uk/img/logos/iDEA-auth0.png" style="margin: 15px auto;" class="img-responsive" alt="iDEA Awards"/>
+				<div class="col-xs-4"></div>
+				<div class="col-xs-4 resource">
+					<img src="/assets/imgs/logos/idea.png" class="resource-logo" alt="iDEA" />
+					<a class="resource-overlay" href="/supporters/idea" title="iDEA - Inspiring Digital Enterprise Award resources">
+						<h2 class="resource-title">iDEA</h2>
 					</a>
 				</div>
+				<div class="col-xs-4"></div>
 			</div>
 		</div>
 	</div>

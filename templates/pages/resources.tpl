@@ -48,6 +48,13 @@
 	<div class="row">
 
 		<div class="col-sm-3 col-xs-6 resource">
+			<img src="/assets/imgs/logos/idea.png" class="resource-logo" alt="iDEA" />
+			<a class="resource-overlay" href="/resources/idea" title="iDEA - Inspiring Digital Enterprise Award resources">
+				<h2 class="resource-title">iDEA</h2>
+			</a>
+		</div>
+
+		<div class="col-sm-3 col-xs-6 resource">
 			<img src="/assets/imgs/logos/scratch.png" class="resource-logo" alt="Scratch programming language" />
 			<a class="resource-overlay" href="/resources/scratch" title="Scratch resources">
 				<h2 class="resource-title">Scratch</h2>
@@ -76,12 +83,7 @@
 			</a>
 		</div>
 
-		<div class="col-sm-3 col-xs-6 resource">
-			<img src="/assets/imgs/logos/idea.png" class="resource-logo" alt="iDEA" />
-			<a class="resource-overlay" href="/resources/idea" title="iDEA - Inspiring Digital Enterprise Award resources">
-				<h2 class="resource-title">iDEA</h2>
-			</a>
-		</div>
+
 <!--
 		<div class="col-sm-3 col-xs-6 resource">
 			<img src="/assets/imgs/logos/unity.png" class="resource-logo" alt="Unity" />

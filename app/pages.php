@@ -151,6 +151,23 @@ function handleSupporters($supporter)
 	handle404Page();
 }
 
+// iDEA March 2017 offer page
+function handleIDEAMarch2017()
+{
+	$tpl = Template::create('pages/supporters/offers/idea-march-2017.tpl');
+
+	$breadcrumb_el = new BreadcrumbsElement();
+	$breadcrumb_el->addCrumb('Home', '/');
+	$breadcrumb_el->addCrumb('Supporters', '/supporters');
+	$breadcrumb_el->addCrumb('iDEA', '/supporters/idea');
+	$breadcrumb_el->addCrumb('March Competition', '/supporters/idea/march-competition', 'supporters');
+	$tpl->addElement('breadcrumbs', $breadcrumb_el);
+
+	$tpl->assign('page_title', 'iDEA and CoderDojo March Campaign 2017');
+
+	$tpl->display();
+}
+
 // Resources pages
 function handleResourcePage()
 {
@@ -202,13 +219,13 @@ function handleSubPage($parent, $child, $title, $page_title = null)
 		switch ($parent)
 		{
 			case 'resources':
-			$breadcrumb_el->addCrumb('Resources', '/resources');
-			$css_class = 'resources';
-			break;
+				$breadcrumb_el->addCrumb('Resources', '/resources');
+				$css_class = 'resources';
+				break;
 			case 'supporters':
-			$breadcrumb_el->addCrumb('Supporters', '/supporters');
-			$css_class = 'supporters';
-			break;
+				$breadcrumb_el->addCrumb('Supporters', '/supporters');
+				$css_class = 'supporters';
+				break;
 		}
 		$path = '/' . $parent . '/' . $child;
 		$breadcrumb_el->addCrumb($title, $path, $css_class);
