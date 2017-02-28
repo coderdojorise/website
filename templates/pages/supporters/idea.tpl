@@ -33,7 +33,7 @@
 				<p>To get in contact with iDEA, please use <a href="https://idea.org.uk/contact" target="_blank">their contact form</a>.</p>
 				<ul class="social-links">
 					<li>
-						<a href="https://idea.org.uk/" title="Check out the iDEA Awards website" target="_blank">
+						<a href="https://idea.org.uk/invite/BO2EH" title="Check out the iDEA Awards website" target="_blank">
 							<i class="fa fa-globe"></i>
 						</a>
 					</li>
@@ -63,10 +63,10 @@
 	<hr />
 	<div class="row">
 		<div class="col-sm-8">
-			<h3>CoderDojo March Campaign</h3>
-			<p>Be awarded by the Duke of York. Have the opportunity to be officially invited to Palace. Show off your Certificate of Excellence to everyone!</p>
+			<h3>CoderDojo March Competition</h3>
+			<p>Be awarded by HRH The Duke of York, KG. Have the opportunity to be officially invited to Palace. Show off your award to everyone!</p>
 			<h5><strong>How?</strong></h5>
-			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills. Check them out <a href="/resources/idea">here</a> along with the <a href="#">criteria for winning</a>.</p>
+			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills. Check them out <a href="/resources/idea">here</a> along with the <a href="/supporters/idea/march-competition"><strong>criteria for winning</strong></a>.</p>
 			<p>Ensure that your parents understand them as well, maybe you can show them how you are going to win?</p>
 			<a href="/resources/idea" class="btn btn-info">Go to the Badges</a>
 		</div>
