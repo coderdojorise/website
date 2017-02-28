@@ -163,7 +163,7 @@ function handleIDEAMarch2017()
 	$breadcrumb_el->addCrumb('March Competition', '/supporters/idea/march-competition', 'supporters');
 	$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-	$tpl->assign('page_title', 'iDEA and CoderDojo March Campaign 2017');
+	$tpl->assign('page_title', 'iDEA and CoderDojo March Competition 2017');
 
 	$tpl->display();
 }
