@@ -15,7 +15,7 @@
 
 	<p style="font-size:16px">CoderDojo is proud to partner with The Duke of York Inspiring Digital Enterprise Award (iDEA), a new programme that has been set up to help people develop digital and enterprise skills. Throughout March, we are running a competition with iDEA for everyone connected with Dojos, Ninjas and our partners in Ireland and the United Kingdom. Entries welcomed from all our Ninjas and learners from partner initiatives!</p>
 
-	<img src="/assets/imgs/campaigns/idea_march_room.png" alt="Room of iDEA" style="max-width: 60%;margin:0 auto" class="img-responsive" />
+	<img src="/assets/imgs/campaigns/idea_logo_banner.jpg" alt="iDEA logo image" style="max-width: 90%;margin:0 auto" class="img-responsive" />
 
 	<hr />
 	<div class="text-center">
