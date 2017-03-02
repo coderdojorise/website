@@ -26,7 +26,7 @@
 
 	<hr />
 	<h3><i class="fa fa-info-circle"></i> Criteria for winning</h3>
-	<p>The CoderDojo Duke of York Inspiring Digital Enterprise Award competition is for individuals residing in Ireland or the United Kingdom only and under the age of 17 as of 31st March 2017.</p>
+	<p>The CoderDojo iDEA competition is for individuals residing in Ireland or the United Kingdom only and under the age of 17 as of 31st March 2017.</p>
 	<p>Winners will be contacted via the email address used to sign-up to <a href="https://idea.org.uk/invite/BO2EH" target="_blank">iDEA.org.uk</a>.</p>
 	<p>There will only be 1 winner per category. If there is more than 1 winner in the category, then the winner will be chosen via random.org.uk.</p>
 	<p>If the winner is unable to attend on the day of the ceremony, their award will be posted to them either at home or at school.</p>
