@@ -21,7 +21,7 @@
 	<div class="text-center">
 		<h2><i class="fa fa-trophy"></i> The Prize <i class="fa fa-trophy"></i></h2>
 
-		<p style="font-size: 22px;font-weight: bold;">The winners will be presented with an award by HRH The Duke of York, KG at a ceremony.</p>
+		<p style="font-size: 22px;font-weight: bold;">The winners will be presented with an award by HRH The Duke of York, KG.</p>
 	</div>
 
 	<hr />
