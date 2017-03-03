@@ -68,7 +68,7 @@
 	<div class="row">
 		<div class="col-sm-8">
 		<h3>The Pi Hut Offer</h3>
-			<p>Our wonderful friends at The Pi Hut is proud to offer all CoderDojo Ninja's (and their parents) 10% on selected Raspbery Pi products. Ust the the following product code: <strong>DojoNinja</strong></p>
+			<p>Our wonderful friends at The Pi Hut is proud to offer all CoderDojo Ninja's (and their parents) 10% on selected Raspbery Pi products. Use the following product code: <strong>DojoNinja</strong></p>
 
 			<p><a href="https://thepihut.com/collections/raspberry-pi-store" class="btn btn-info" target="_blank"><i class="fa fa-shopping-cart"></i> check out their store here</a></p>
 		</div>
