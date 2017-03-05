@@ -29,6 +29,7 @@
 	{include file="include/header.tpl"}
 	{block name=body}{/block}
 	{include file="include/footer.tpl"}
+	<script type="text/javascript" src="/assets/js/utils.js"></script>
 	<script type="text/javascript" src="/assets/js/scripts.js"></script>
 </body>
 </html>
