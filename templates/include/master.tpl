@@ -27,8 +27,10 @@
 </head>
 <body>
 	{include file="include/header.tpl"}
+	{include file="partials/eu-cookie-message.tpl"}
 	{block name=body}{/block}
 	{include file="include/footer.tpl"}
-	<script type="text/javascript" src="/assets/js/scripts.js"></script>
+	<script type="text/javascript" src="/assets/js/utils.js?v={date('ms')}"></script>
+	<script type="text/javascript" src="/assets/js/scripts.js?v={date('ms')}"></script>
 </body>
 </html>

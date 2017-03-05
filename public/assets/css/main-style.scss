@@ -42,6 +42,27 @@ p.code {
 	color: $cd-purple;
 }
 
+#cookie-law-container {
+	transition: opacity 0.3s;
+	position: fixed;
+	z-index: 1000;
+	opacity: 0.8;
+	width: 100%;
+	bottom: 0;
+}
+#cookie-law-container:hover {
+	opacity: 1;
+}
+#cookie-law-alert {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	cursor: default;
+	margin: 0;
+}
+#cookie-law-alert a {
+	text-decoration: underline;
+}
+
 /////////////
 // ICONS ///
 ///////////
@@ -652,6 +673,13 @@ div.newsletter-form-container div.response-success h3 {
 @media (max-width: 767px) {
 	body {
 		padding-top: 65px;
+	}
+	#cookie-law-container {
+		opacity: 1;
+	}
+	#cookie-law-container .container {
+		padding: 0;
+		margin: 0;
 	}
 	nav div.navbar-collapse ul.navbar-right > li > a {
 		border-left: 5px solid;
