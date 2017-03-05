@@ -17,6 +17,20 @@
 	<div class="row">
 
 		<div class="col-xs-4 supporter resource">
+			<img src="/assets/imgs/logos/idea.png" class="resource-logo" alt="iDEA" />
+			<a class="resource-overlay" href="/supporters/idea">
+				<h2 class="resource-title">iDEA</h2>
+			</a>
+		</div>
+
+		<div class="col-xs-4 supporter resource">
+			<img src="/assets/imgs/logos/kano.png" class="resource-logo" alt="iDEA" />
+			<a class="resource-overlay" href="/supporters/kano">
+				<h2 class="resource-title">Kano</h2>
+			</a>
+		</div>
+
+		<div class="col-xs-4 supporter resource">
 			<img src="/assets/imgs/logos/raspberry-pi.png" class="resource-logo" alt="Raspberry Pi" />
 			<a class="resource-overlay" href="/supporters/raspberry-pi">
 				<h2 class="resource-title">Raspberry Pi</h2>
@@ -30,12 +44,7 @@
 			</a>
 		</div>
 
-		<div class="col-xs-4 supporter resource">
-			<img src="/assets/imgs/logos/idea.png" class="resource-logo" alt="iDEA" />
-			<a class="resource-overlay" href="/supporters/idea">
-				<h2 class="resource-title">iDEA</h2>
-			</a>
-		</div>
+
 
 	</div>
 </div>

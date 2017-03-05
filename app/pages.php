@@ -132,7 +132,7 @@ function handleSupporters($supporter)
 	$valid_supporters = [
 		'leap-motion' => 'LEAP Motion',
 		'trinket' => 'Trinket',
-		'kano' => 'Kano Computing',
+		'kano' => 'Kano',
 		'mozilla' => 'Mozilla',
 		'apple' => 'Apple',
 		'raspberry-pi' => 'Raspberry Pi &amp; The Pi Hut Offers',
@@ -178,7 +178,7 @@ function handleResourcePage()
 	$breadcrumb_el->addCrumb('Resources', '/resources', 'resources');
 	$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-	$tpl->assign('page_title', 'Free Resources to Learn Coding');
+	$tpl->assign('page_title', 'Resources to Learn Coding');
 
 	$tpl->display();
 }
@@ -201,7 +201,7 @@ function handleResources($resource)
 		$parent_page = 'resources';
 		$template_path = 'pages/' . $parent_page . '/' . $resource . '.tpl';
 		$title = $valid_resources[$resource];
-		$page_title = 'Free ' . $title . ' Resources';
+		$page_title = 'Resources for ' . $title . ' provided by CoderDojo';
 		handleSubPage($parent_page, $resource, $title, $page_title);
 	}
 	handle404Page();

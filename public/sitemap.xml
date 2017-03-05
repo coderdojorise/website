@@ -49,6 +49,9 @@
 		<loc>https://coderdojo.london/supporters/idea</loc>
 	</url>
 	<url>
+		<loc>https://coderdojo.london/supporters/kano</loc>
+	</url>
+	<url>
 		<loc>https://coderdojo.london/supporters/idea/march-competition</loc>
 	</url>
 	<url>
@@ -56,5 +59,8 @@
 	</url>
 	<url>
 		<loc>https://coderdojo.london/community</loc>
+	</url>
+	<url>
+		<loc>https://coderdojo.london/legal/cookies</loc>
 	</url>
 </urlset>
