@@ -13,6 +13,7 @@ The project has a predefined structure in order to make everything work as expec
 _ coderdojo.london (Root)
 \__ website (This Repository)
 \__ config (Configuration Store)
+\__ vagrant-box (Place to store your vagrant box)
 ```
 Inside this `config` folder you must create some files. For now only an `api_keys.php` file is needed. This file is used to store the **GitHub** and **MailChimp** API key values:
 ```php
@@ -39,16 +40,6 @@ The project heavily relies on the following packages (found in the `composer.jso
 - **MailChimpAPI** (https://github.com/drewm/mailchimp-api)
 
 ## Collaborate
-The project can be worked on by as many people as possible and we encourage you to help develop it by creating an issue or a pull request. 
+The project can be worked on by as many people as possible and we encourage you to help develop it by creating an issue or a pull request.
 
-### Main Collaborators
-These are the people who constantly contribute to this project, checkout their GitHub profiles if you get a chance!
-
-- **Carlos Ferreira**
-	- [GitHub](https://github.com/cajogos) • [Twitter](https://twitter.com/carlos_tweets) • [Website](https://carlos.fyi)
-- **Matthew Hart**
-	- [GitHub](https://github.com/mattou07) • [Twitter](https://twitter.com/MatthewHart3)
-- **Nathan Perkins**
-	- [GitHub](https://github.com/natmanz) • [Twitter](https://twitter.com/natty2894)
-- **Sam Roberts**
-	- [GitHub](https://github.com/samroberts707) • [Twitter](https://twitter.com/samroberts707) • [Website](http://samroberts.me)
+See the list of [main contributors here](CONTRIBUTORS.md).
