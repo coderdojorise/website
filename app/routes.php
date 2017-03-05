@@ -33,4 +33,7 @@ $router->map('GET', '/volunteer/create-a-dojo', 'handleCreateADojo', 'create_doj
 
 $router->map('GET', '/supporters/idea/march-competition', 'handleIDEAMarch2017', 'idea_march_2017');
 
+// Legal Pages
+$router->map('GET', '/legal/cookies', 'handleLegalCookies', 'legal_cookies');
+
 handleRouting($router);

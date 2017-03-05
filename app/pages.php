@@ -240,6 +240,21 @@ function handleSubPage($parent, $child, $title, $page_title = null)
 	handle404Page();
 }
 
+// Legal pages
+function handleLegalCookies()
+{
+	$tpl = Template::create('pages/legal/cookies.tpl');
+
+	$breadcrumb_el = new BreadcrumbsElement();
+	$breadcrumb_el->addCrumb('Home', '/');
+	$breadcrumb_el->addCrumb('How we use cookies', '/legal/cookies');
+	$tpl->addElement('breadcrumbs', $breadcrumb_el);
+
+	$tpl->assign('page_title', 'How we use cookies');
+
+	$tpl->display();
+}
+
 function handle404Page()
 {
 	header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
