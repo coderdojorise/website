@@ -53,5 +53,23 @@
 		<h3>Coding Cards</h3>
 		{include file="partials/resources_table.tpl" type="scratch"}
 	</div>
+
+	<hr />
+	<div class="row">
+		<div class="col-xs-12">
+			<h3>Supporters who can assist you with Scratch</h3>
+			<div class="row partners">
+				<div class="col-xs-4"></div>
+				<div class="col-xs-4 resource">
+					<img src="/assets/imgs/logos/kano.png" class="resource-logo" alt="Kano" />
+					<a class="resource-overlay" href="/supporters/kano" title="Kano - Build it yourself computer.">
+						<h2 class="resource-title">Kano</h2>
+					</a>
+				</div>
+				<div class="col-xs-4"></div>
+			</div>
+		</div>
+	</div>
+
 </div>
 {/block}
