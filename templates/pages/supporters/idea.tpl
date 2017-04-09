@@ -69,10 +69,8 @@
 			<h5><strong>How?</strong></h5>
 			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills.</p>
 			<p>Ensure that your parents understand them as well, maybe you can show them how you are going to win?</p>
-			<div class="text-center" style="margin-top:10px">
-				<a href="/resources/idea" class="btn btn-info">Go To The Badges</a>
-				<a href="/supporters/idea/spring-competition" class="btn btn-info"><i class="fa fa-info-circle"></i> Criteria for Winning</a>
-			</div>
+			<a href="/resources/idea" class="btn btn-info">Go To The Badges</a>
+			<a href="/supporters/idea/spring-competition" class="btn btn-info"><i class="fa fa-info-circle"></i> Criteria for Winning</a>
 		</div>
 		<div class="col-sm-4 hidden-xs">
 			<div class="icon-container purple-icon"><i class="fa fa-fort-awesome"></i></div>
