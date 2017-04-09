@@ -193,7 +193,8 @@ function handleResources($resource)
 		'lego' => 'LEGO Minecraft',
 		'apple-swift' => 'Apple Swift',
 		'raspberry-pi' => 'Raspberry Pi',
-		'idea' => 'iDEA'
+		'idea' => 'iDEA',
+		'idea-mentors' => 'iDEA Mentors'
 	];
 	$valid_keys = array_keys($valid_resources);
 	if (in_array($resource, $valid_keys))
