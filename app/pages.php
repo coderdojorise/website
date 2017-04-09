@@ -151,19 +151,19 @@ function handleSupporters($supporter)
 	handle404Page();
 }
 
-// iDEA March 2017 offer page
-function handleIDEAMarch2017()
+// iDEA Spring 2017 offer page
+function handleIDEASpring2017()
 {
-	$tpl = Template::create('pages/supporters/offers/idea-march-2017.tpl');
+	$tpl = Template::create('pages/supporters/offers/idea-spring-2017.tpl');
 
 	$breadcrumb_el = new BreadcrumbsElement();
 	$breadcrumb_el->addCrumb('Home', '/');
 	$breadcrumb_el->addCrumb('Supporters', '/supporters');
 	$breadcrumb_el->addCrumb('iDEA', '/supporters/idea');
-	$breadcrumb_el->addCrumb('March Competition', '/supporters/idea/march-competition', 'supporters');
+	$breadcrumb_el->addCrumb('Spring Competition', '/supporters/idea/spring-competition', 'supporters');
 	$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-	$tpl->assign('page_title', 'iDEA and CoderDojo March Competition 2017');
+	$tpl->assign('page_title', 'iDEA and CoderDojo Spring Competition 2017');
 
 	$tpl->display();
 }

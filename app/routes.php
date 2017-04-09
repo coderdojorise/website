@@ -31,7 +31,15 @@ $router->map('GET', '/volunteer/assist-a-dojo', 'handleAssistADojo', 'assist_doj
 
 $router->map('GET', '/volunteer/create-a-dojo', 'handleCreateADojo', 'create_dojo');
 
-$router->map('GET', '/supporters/idea/march-competition', 'handleIDEAMarch2017', 'idea_march_2017');
+
+// iDEA Spring competition
+$router->map('GET', '/supporters/idea/march-competition', function()
+{
+	// Do a redirect (used to be march competition)
+	header('Location: /supporters/idea/spring-competition');
+	exit;
+});
+$router->map('GET', '/supporters/idea/spring-competition', 'handleIDEASpring2017', 'idea_spring_2017');
 
 // Legal Pages
 $router->map('GET', '/legal/cookies', 'handleLegalCookies', 'legal_cookies');

@@ -63,12 +63,14 @@
 	<hr />
 	<div class="row">
 		<div class="col-sm-8">
-			<h3>CoderDojo March Competition</h3>
+			<h3>CoderDojo Spring Competition</h3>
 			<p>Be awarded by HRH The Duke of York, KG. Have the opportunity to be officially invited to Palace. Show off your award to everyone!</p>
 			<h5><strong>How?</strong></h5>
-			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills. Check them out <a href="/resources/idea">here</a> along with the <a href="/supporters/idea/march-competition"><strong>criteria for winning</strong></a>.</p>
+			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills.</p>
 			<p>Ensure that your parents understand them as well, maybe you can show them how you are going to win?</p>
-			<a href="/resources/idea" class="btn btn-info">Go to the Badges</a>
+			<div class="text-center" style="margin-top:10px">
+				<a href="/supporters/idea/spring-competition" class="btn btn-info"><i class="fa fa-info-circle"></i> Criteria for Winning</a>
+			</div>
 		</div>
 		<div class="col-sm-4 hidden-xs">
 			<div class="icon-container purple-icon"><i class="fa fa-fort-awesome"></i></div>
