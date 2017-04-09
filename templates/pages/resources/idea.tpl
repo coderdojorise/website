@@ -40,7 +40,7 @@
 			<img src="/assets/imgs/idea-badges.png" class="img-responsive" alt="Getting Started Image"/>
 		</div>
 		<div class="col-md-7 col-md-offset-0 col-xs-10 col-xs-offset-1">
-			<p>When you've taken enough badges in each of the categories, you can gain iDEA Bronze Award - a recognised symbol of your hard work, determination and skill. You'll then be able to take new challenges and badges that will unlock a Silver Award and then, the ultimate prize, the iDEA Gold Award</p>
+			<p>When you've taken enough badges in each of the categories, you can gain iDEA Bronze Award - a recognised symbol of your hard work, determination and skill. You'll then be able to take new challenges and badges that will unlock a Silver Award and then, the ultimate prize, the iDEA Gold Award.</p>
 		</div>
 	</div>
 
@@ -50,6 +50,14 @@
 		</div>
 		<div class="col-xs-12">
 			{include file="partials/resources_table.tpl" type="idea"}
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<a href="/resources/idea-mentors" class="resource-button">
+				Resources For Mentors
+			</a>
 		</div>
 	</div>
 

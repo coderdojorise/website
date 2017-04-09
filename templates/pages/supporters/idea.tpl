@@ -54,6 +54,7 @@
 			<p>Turn your learning into earning.</p>
 			<p>When you've taken enough badges in each of the categories, you can gain iDEA Bronze Award - a recognised symbol of your hard work, determination and skill. You'll then be able to take new challenges and badges that will unlock a Silver Award and then, the ultimate prize, the iDEA Gold Award.</p>
 			<a href="/resources/idea" class="btn btn-info">Resources</a>
+			<a href="/resources/idea-mentors" class="btn btn-info">Resources For Mentors</a>
 		</div>
 		<div class="col-sm-4 hidden-xs">
 			<div class="icon-container purple-icon"><i class="fa fa-book"></i></div>
@@ -69,6 +70,7 @@
 			<p>iDEA (Inspiring Digital Enterprise Award) and CoderDojo have created some awesome badges to challenge and provide to the world your amazing coding skills.</p>
 			<p>Ensure that your parents understand them as well, maybe you can show them how you are going to win?</p>
 			<div class="text-center" style="margin-top:10px">
+				<a href="/resources/idea" class="btn btn-info">Go To The Badges</a>
 				<a href="/supporters/idea/spring-competition" class="btn btn-info"><i class="fa fa-info-circle"></i> Criteria for Winning</a>
 			</div>
 		</div>
