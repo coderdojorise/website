@@ -4,75 +4,101 @@
 
 {block name=body}
 
-<div class="jumbotron jumbotron-home">
-	<div class="container">
-		<img src="/assets/imgs/sign_250.png" class="cd-sign" alt="coderdojo-logo" />
-		<h1><strong class="cd-orange">Be cool</strong> and <em>get involved</em></h1>
-		<p>CoderDojo is a volunteer led movement that aims to help everyone in improving their coding abilities, from as early as 4 years old all the way up to 400 years old - <em>you can help!</em></p>
+<div class="jumbotron-home-container">
+	<div class="jumbotron-home">
+		<h1><span class="orange">Be Cool</span> and get involved</h1>
+		<h2>CoderDojo is a volunteer led movement that aims to help everyone in improving their coding abilities from early as 4 years old all the way up to 400 years old - you can help.</h2>
 	</div>
 </div>
 
 <div class="container homepage">
 
-	<section class="homepage">
-		<div class="row">
-			<div class="col-xs-6">
-				<h2 class="cd-green"><i class="fa fa-ticket"></i><br />Attend a Dojo</h2>
+	<p class="home-intro">[WHAT TO PUT HERE?] lorem ipsum dolor sit amet....</p>
+
+	<div class="home-icons-container">
+
+		<div class="home-icons-section" onclick="window.location='/about-us'">
+			<div class="icon">
+				<img src="/assets/imgs/homepage-icons/about-us.png" alt="About Us" />
 			</div>
-			<div class="col-xs-6">
-				<p>Join more than 10,000 ninjas and mentors in London and <a href="/attend-a-dojo" title="Click to find out when the next CoderDojo event is in London." class="cd-green">come along to one of our Dojos</a>!</p>
-			</div>
+			<h2>About Us</h2>
+			<p>Find out how we help young people learn to code</p>
+			<a href="/about-us" class="home-button orange">Find out More</a>
 		</div>
-	</section>
-	<hr />
 
-
-	<section class="homepage">
-		<div class="row">
-			<div class="col-xs-6">
-				<p>Are you passionate about teaching or want to teach others how to code like you?<br />Come <a href="/volunteer" title="Learn how to volunteer at a CoderDojo in London." class="cd-blue">join our volunteer team</a> by either <a href="/volunteer/assist-a-dojo" title="Information on how to assist at a CoderDojo." class="cd-blue">assisting at one of our events</a> or <a href="/volunteer/create-a-dojo" title="Information on how to create your own CoderDojo in London" class="cd-blue">starting your very own CoderDojo</a> in your local community.</p>
+		<div class="home-icons-section" onclick="window.location='/attend-a-dojo'">
+			<div class="icon">
+				<img src="/assets/imgs/homepage-icons/attend-dojo.png" alt="Attend a Dojo in London" />
 			</div>
-			<div class="col-xs-6">
-				<h2 class="cd-blue"><i class="fa fa-star"></i><br />Gain Volunteering Experience</h2>
-			</div>
+			<h2>Attend a Dojo</h2>
+			<p>Join 10,000 ninjas and mentors in London and come along to one of our dojos!</p>
+			<a href="/attend-a-dojo" class="home-button green">Find out More</a>
 		</div>
-	</section>
-	<hr />
 
-	<section class="homepage">
-		<div class="row">
-			<div class="col-xs-6">
-				<h2 class="cd-red"><i class="fa fa-tasks"></i><br />Free Coding Resources</h2>
+		<div class="home-icons-section" onclick="window.location='/volunteer'">
+			<div class="icon">
+				<img src="/assets/imgs/homepage-icons/volunteer.png" alt="Volunteer with CoderDojo in London" />
 			</div>
-			<div class="col-xs-6">
-				<p>Learn from our <a href="/resources" title="Free resources to help you learn coding" class="cd-red">awesome resources database</a> and create anything that comes to mind! You can even find out who you can contact to gain even more knowledge.</p>
-			</div>
+			<h2>Volunteering Experience</h2>
+			<p>Are you passionate about teaching or want to teach others how to code like you?</p>
+			<a href="/volunteer" class="home-button blue">Join Us</a>
 		</div>
-	</section>
-	<hr />
 
-	<section class="homepage">
-		<div class="row">
-			<div class="col-xs-6">
-				<p>These are the people and companies that help us achieve all the amazing things.<br />Make sure to check out <a href="/supporters" title="The official supporters of CoderDojo London" class="cd-purple">our supporters page</a> and see more of what they do and get some great discounts exclusive to the CoderDojo community!</p>
+		<div class="home-icons-section" onclick="window.location='/resources'">
+			<div class="icon">
+				<img src="/assets/imgs/homepage-icons/resources.png" alt="Free Resources by CoderDojo London" />
 			</div>
-			<div class="col-xs-6">
-				<h2 class="cd-purple"><i class="fa fa-handshake-o"></i><br />Building Great Partnerships</h2>
-			</div>
+			<h2>FREE Resources</h2>
+			<p>Learn from our awesome resources database and create anything that comes to mind!</p>
+			<a href="/resources" class="home-button red">Learn With Us</a>
 		</div>
-	</section>
-	<hr />
 
-	<!-- DIGITAL BADGES LINK HERE -->
-	<div class="homepage-sponsored">
-		<h3><strong>Digital Badges?<br />From The Duke of York?</strong></h3>
-		<a href="/resources/idea" class="btn btn-warning btn-lg">Find Out More</a>
+		<div class="home-icons-section" onclick="window.location='/supporters/idea'">
+			<div class="icon">
+				<img src="/assets/imgs/homepage-icons/castle.png" alt="CoderDojo London Supporters" />
+			</div>
+			<h2>iDEA Competition</h2>
+			<p>Through a series of online challenges and events, unlock new opportunities and win career-enhancing badges.</p>
+			<a href="/supporters/idea" class="home-button black">Start Collecting</a>
+		</div>
+
 	</div>
 
 	<hr />
-	<p class="alert alert-success text-center">
-		<i class="fa fa-info-circle"></i> Hey there!<br />Please take in mind we are still in the process of polishing and making this the best website ever! You can send us your feedback by emailing dev@coderdojo.london.<br />Thanks for visiting!
-	</p>
+
+	<div class="home-full-container">
+		<div class="home-full-image" style="background-image: url('/assets/imgs/photo-about-us.jpg')"></div>
+		<div class="home-full-content purple" onclick="window.location='/supporters/idea'">
+			<div class="home-icons-section">
+				<div class="icon">
+					<img src="/assets/imgs/homepage-icons/sponsored-trophy.png" />
+				</div>
+				<h2>Duke of York iDEA Competition</h2>
+				<p>Be awarded by HRH The Duke of York, KG. Have the opportunity to be officially invited to the Palace. Show off your award to everyone!</p>
+				<a href="/supporters/idea" class="home-button orange">Enter</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-full-container">
+		<div class="home-full-content white">
+			<div class="home-icons-section" style="cursor: default">
+				<div class="icon">
+					<img src="/assets/imgs/homepage-icons/chat.png" />
+				</div>
+				<h2>Hey There!</h2>
+				<p>Please take in mind we are still in the process of polishing and making this the best website ever! You can send us your feedback by emailing <strong>dev@coderdojo.london</strong>.<br /><br />Thanks for visiting!</p>
+				<a href="mailto:dev@coderdojo.london" class="home-button blue">Get in Touch</a>
+			</div>
+		</div>
+		<div class="home-full-image" style="background-image: url('/assets/imgs/photo-about-us.jpg')"></div>
+	</div>
+
+	<hr />
+
+	<div class="home-newsletter-signup">
+		{include file="partials/newsletter_form.tpl" list="main" text="Sign up for our Newsletter"}
+	</div>
 
 </div>
 
