@@ -339,11 +339,6 @@ div.jumbotron-home h2 {
 	margin: 15px auto;
 }
 div.homepage {}
-div.homepage p.home-intro {
-	text-align: center;
-	font-size: 26px;
-	color: #000;
-}
 
 div.home-icons-container {
 	text-align: center;
@@ -435,6 +430,9 @@ a.home-button.blue {
 }
 a.home-button.red {
 	background: $cd-red;
+}
+a.home-button.purple {
+	background: $cd-purple;
 }
 a.home-button.black {
 	background: $cd-black;
