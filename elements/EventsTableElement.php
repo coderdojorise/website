@@ -2,7 +2,7 @@
 
 class EventsTableElement extends Element
 {
-	const MAX_NEXT_EVENTS = 3;
+	const MAX_NEXT_EVENTS = 5;
 	private $events = array();
 
 	public function __construct()
