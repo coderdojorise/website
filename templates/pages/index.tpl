@@ -53,7 +53,7 @@
 
 		<div class="home-icons-section" onclick="window.location='/supporters/idea'">
 			<div class="icon">
-				<img src="/assets/imgs/homepage-icons/castle.png" alt="CoderDojo London Supporters" />
+				<img src="/assets/imgs/homepage-icons/supporters.png" alt="CoderDojo London Supporters" />
 			</div>
 			<h2>Supporters</h2>
 			<p>Amazing Supporters that have generously provided pro-bono services or discounts on their own products to us and to the wider CoderDojo community.</p>
