@@ -7,7 +7,7 @@
 <div class="jumbotron-home-container">
 	<div class="jumbotron-home">
 		<h1><span class="orange">Be Cool</span> and get involved</h1>
-		<h2>CoderDojo is a volunteer led movement that aims to help everyone in improving their coding abilities from early as 4 years old all the way up to 400 years old - you can help.</h2>
+		<h2>CoderDojo is a volunteer led movement that aims to assist everyone in improving their coding abilities from early as 4 years old all the way up to 400 years old - you can make a difference.</h2>
 	</div>
 </div>
 
@@ -72,8 +72,8 @@
 					<img src="/assets/imgs/homepage-icons/sponsored-trophy.png" />
 				</div>
 				<h2>Duke of York iDEA Competition</h2>
-				<p>Be awarded by HRH The Duke of York, KG. Have the opportunity to be officially invited to the Palace. Show off your award to everyone!</p>
-				<a href="/supporters/idea" class="home-button orange">Enter</a>
+				<p>HRH The Duke of York, KG will be rewarding our ninja's in our recent Spring Competition. Discover more about this great initiative.</p>
+				<a href="/supporters/idea" class="home-button orange">Find Out More</a>
 			</div>
 		</div>
 	</div>
@@ -86,19 +86,19 @@
 				</div>
 				<h2>Hey There!</h2>
 				<p>Please take in mind we are still in the process of polishing and making this the best website and community ever! We're always listening and learning - so please send us your feedback at <strong>feedback@coderdojo.london</strong>.
-				<br /><br />Thanks for visiting!</p>
-				<a href="mailto:dev@coderdojo.london" class="home-button blue">Get in Touch</a>
+					<br /><br />Thanks for visiting!</p>
+					<a href="mailto:dev@coderdojo.london" class="home-button blue">Get in Touch</a>
+				</div>
 			</div>
+			<div class="home-full-image" style="background-image: url('/assets/imgs/herythere_homepage.png')"></div>
 		</div>
-		<div class="home-full-image" style="background-image: url('/assets/imgs/herythere_homepage.png')"></div>
+
+		<hr />
+
+		<div class="home-newsletter-signup">
+			{include file="partials/newsletter_form.tpl" list="main" text="Sign up to be on the CoderDojo London List to ensure you're alerted for the next Dojo near you."}
+		</div>
+
 	</div>
 
-	<hr />
-
-	<div class="home-newsletter-signup">
-		{include file="partials/newsletter_form.tpl" list="main" text="Sign up to be on the CoderDojo London List to ensure you're alerted for the next Dojo near you."}
-	</div>
-
-</div>
-
-{/block}
+	{/block}
