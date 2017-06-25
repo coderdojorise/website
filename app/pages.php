@@ -8,7 +8,7 @@ function handleHomePage()
 	$breadcrumb_el->addCrumb('Home', '/', 'active');
 	$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-	$tpl->assign('page_title', 'CoderDojo in London');
+	$tpl->assign('page_title', 'CoderDojo - Be Cool and get involved');
 
 	$tpl->display();
 }
