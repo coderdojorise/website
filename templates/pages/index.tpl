@@ -19,7 +19,7 @@
 			<div class="icon">
 				<img src="/assets/imgs/homepage-icons/about-us.png" alt="About Us" />
 			</div>
-			<h2>About Us</h2>
+			<h2 class="cd-orange">About Us</h2>
 			<p>Find out how we assist young adults discover the magic!</p>
 			<a href="/about-us" class="home-button orange">Find out More</a>
 		</div>
@@ -28,7 +28,7 @@
 			<div class="icon">
 				<img src="/assets/imgs/homepage-icons/attend-dojo.png" alt="Attend a Dojo in London" />
 			</div>
-			<h2>Attend a Dojo</h2>
+			<h2 class="cd-green">Attend a Dojo</h2>
 			<p>Be part of the magic and discover when the next London Dojo is happening.</p>
 			<a href="/attend-a-dojo" class="home-button green">Find out More</a>
 		</div>
@@ -37,7 +37,7 @@
 			<div class="icon">
 				<img src="/assets/imgs/homepage-icons/volunteer.png" alt="Volunteer with CoderDojo in London" />
 			</div>
-			<h2>Volunteering Experience</h2>
+			<h2 class="cd-blue">Volunteering Experience</h2>
 			<p>Get involved and Volunteer. Can't code? No problem, no experience necessary.</p>
 			<a href="/volunteer" class="home-button blue">Join Us</a>
 		</div>
@@ -46,7 +46,7 @@
 			<div class="icon">
 				<img src="/assets/imgs/homepage-icons/resources.png" alt="Free Resources by CoderDojo London" />
 			</div>
-			<h2>FREE Resources</h2>
+			<h2 class="cd-red">FREE Resources</h2>
 			<p>Discover and explore our awesome resource database and then create anything you can imagine!</p>
 			<a href="/resources" class="home-button red">Learn With Us</a>
 		</div>
@@ -55,7 +55,7 @@
 			<div class="icon">
 				<img src="/assets/imgs/homepage-icons/supporters.png" alt="CoderDojo London Supporters" />
 			</div>
-			<h2>Supporters</h2>
+			<h2 class="cd-purple">Supporters</h2>
 			<p>Amazing Supporters that have generously provided pro-bono services or discounts on their own products to us and to the wider CoderDojo community.</p>
 			<a href="/supporters" class="home-button purple">Check Them Out</a>
 		</div>
