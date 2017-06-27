@@ -1,47 +1,63 @@
 <?php
 
-// Routing is done using AltoRouter
-// See more: http://altorouter.com/usage/mapping-routes.html
 $router = new AltoRouter();
 
-// map($method, $route, $target, $name = null)
-$router->map('GET', '/', 'handleHomePage', 'main');
+// Homepage
+$router->map('GET', '/', 'HomeController::display', 'main');
 
-$router->map('GET', '/test', 'handleTestPage', 'test');
+// About Us
+$router->map('GET', '/about-us', 'AboutController::display', 'about_us');
 
-$router->map('GET', '/resources', 'handleResourcePage', 'resources_home');
+// Attend a Dojo
+$router->map('GET', '/attend-a-dojo', 'AttendDojoController::display', 'attend_a_dojo');
 
-$router->map('GET', '/about-us', 'handleAboutPage', 'about_home');
+// Volunteer
+$router->map('GET', '/volunteer', 'VolunteerController::display', 'volunteer_home');
+$router->map('GET', '/volunteer/[:page]', 'VolunteerController::display', 'volunteer_subpage');
 
-$router->map('GET', '/supporters', 'handleSupportersPage', 'supporters_home');
+// Resources
+$router->map('GET', '/resources', 'ResourcesController::display', 'resources_home');
+$router->map('GET', '/resources/[:topic]', 'ResourcesController::display', 'resources_topic');
 
-$router->map('GET', '/attend-a-dojo', 'handleAttendPage', 'attend_home');
-
-$router->map('GET', '/volunteer', 'handleVolunteerPage', 'volunteer_home');
-
-$router->map('GET', '/news', 'handleNewsPage', 'news_home');
-
-$router->map('GET', '/community', 'handleCommunityPage', 'community_home');
-
-$router->map('GET', '/resources/[:topic]', 'handleResources', 'resources_subject');
-
-$router->map('GET', '/supporters/[:supporter_entity]', 'handleSupporters', 'supporter_company');
-
-$router->map('GET', '/volunteer/assist-a-dojo', 'handleAssistADojo', 'assist_dojo');
-
-$router->map('GET', '/volunteer/create-a-dojo', 'handleCreateADojo', 'create_dojo');
-
-
-// iDEA Spring competition
+// Supporters
+$router->map('GET', '/supporters', 'SupportersController::display', 'supporters_home');
+$router->map('GET', '/supporters/[:supporter]', 'SupportersController::display', 'supporter_entity');
+// Supporters: iDEA Spring Competition
+$router->map('GET', '/supporters/idea/spring-competition', 'SupportersController::displayIDEACompetition', 'supporter_idea_competition');
 $router->map('GET', '/supporters/idea/march-competition', function()
 {
-	// Do a redirect (used to be march competition)
-	header('Location: /supporters/idea/spring-competition');
-	exit;
+	Request::redirect('/supporters/idea/spring-competition', true);
 });
-$router->map('GET', '/supporters/idea/spring-competition', 'handleIDEASpring2017', 'idea_spring_2017');
+
+// Community
+$router->map('GET', '/community', 'CommunityController::display', 'community_home');
 
 // Legal Pages
-$router->map('GET', '/legal/cookies', 'handleLegalCookies', 'legal_cookies');
+$router->map('GET', '/legal/cookies', 'LegalController::displayCookies', 'legal_cookies');
 
+
+function handle404Page()
+{
+	header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
+	$tpl = Template::create('pages/404.tpl');
+
+	$breadcrumb_el = new BreadcrumbsElement();
+	$breadcrumb_el->addCrumb('Home', '/', 'active');
+	$tpl->addElement('breadcrumbs', $breadcrumb_el);
+
+	$tpl->display();
+}
+
+function handleRouting(AltoRouter $router)
+{
+	$match = $router->match();
+	if ($match && is_callable($match['target']))
+	{
+		call_user_func_array($match['target'], $match['params']);
+	}
+	else
+	{
+		handle404Page();
+	}
+}
 handleRouting($router);

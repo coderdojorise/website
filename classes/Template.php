@@ -3,47 +3,46 @@
 class Template
 {
 	private $smarty, $file = null;
-	private $template_dir, $compile_dir = null;
 
 	private function __construct()
 	{
-		$this->template_dir = self::get_template_dir();
-		$this->compile_dir = self::get_compile_dir();
-
+		$template_dir = $_SERVER['DOCUMENT_ROOT'] . '/../templates/';
+		$compile_dir = '/tmp/biscuit-link-templates/';
 		$this->smarty = new Smarty();
-		$this->smarty->setTemplateDir($this->template_dir);
-		$this->smarty->setCompileDir($this->compile_dir);
+		$this->smarty->setTemplateDir($template_dir);
+		$this->smarty->setCompileDir($compile_dir);
 
-		// Force templating in dev mode
+		// Force compiling of templates in development mode
 		if (DEV_MODE)
 		{
 			$this->smarty->force_compile = true;
 			$this->smarty->compile_check = true;
 		}
 	}
+
+	public static function create($template_path)
+	{
+		$template = new Template();
+		$template->setFile($template_path);
+		return $template;
+	}
+
 	public static function exists($file)
 	{
 		$file_location = self::get_template_dir() . $file;
 		return file_exists($file_location);
 	}
-	public static function create($file)
-	{
-		$template = new Template();
-		$template->setFile($file);
-		return $template;
-	}
+
 	private static function get_template_dir()
 	{
 		return $_SERVER['DOCUMENT_ROOT'] . '/../templates/';
 	}
-	private static function get_compile_dir()
-	{
-		return '/tmp/';
-	}
+
 	public function getFile()
 	{
 		return $this->file;
 	}
+
 	public function setFile($file)
 	{
 		$this->file = $file;
@@ -54,18 +53,34 @@ class Template
 		$this->smarty->assign($key, $value);
 	}
 
+	public function addElement($element_id, Element $element)
+	{
+		if (!is_a($element, 'Element'))
+		{
+			throw new Exception('You MUST add an Element object when using addElement function');
+		}
+		$this->smarty->assign($element_id, $element->getString());
+	}
+
 	public function display()
 	{
-		$this->smarty->display($this->getFile());
+		try
+		{
+			$this->smarty->display($this->getFile());
+		}
+		catch (SmartyException $e)
+		{
+			echo '<h1 style="color:red">Biscuit Link Template Exception!</h1>';
+			echo '<h1>' . $e->getMessage() . '</h1>';
+			echo '<pre style="max-width: 500px;">';
+			print_r(debug_print_backtrace(2));
+			echo '</pre>';
+			exit;
+		}
 	}
 
 	public function getString()
 	{
 		return $this->smarty->fetch($this->getFile());
-	}
-
-	public function addElement($element_id, Element $element)
-	{
-		$this->smarty->assign($element_id, $element->getString());
 	}
 }

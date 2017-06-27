@@ -1,7 +1,23 @@
 <?php
 
-// Enable (1) Disable (0) development mode
-define('DEV_MODE', 1); 
+/*
+ * Initialization file:
+ * - Your app does all the smart stuffs here!
+ * - You can also switch the development mode ON or OFF here by changing the DEV_MODE global.
+ */
+
+// Start session for the current user
+session_start();
+
+// Add the configuration file
+$config_location = $_SERVER['DOCUMENT_ROOT'] . '/../app/config.php';
+if (file_exists($config_location))
+{
+	require $config_location;
+}
+
+define('DEV_MODE', 1);
+// Development Mode: Enable (1) or Disable (0) - Comes from config file
 if (DEV_MODE)
 {
 	ini_set('display_errors', DEV_MODE);
@@ -9,30 +25,46 @@ if (DEV_MODE)
 	error_reporting(E_ALL);
 }
 
-// Start the session
-session_start();
 
 // API KEYS CONFIG FILE
 require_once $_SERVER['DOCUMENT_ROOT'] . '/../../config/api_keys.php';
 
-// Composer autoloader
-require_once $_SERVER['DOCUMENT_ROOT'] . '/../vendor/autoload.php';
+// Composer autoload
+$vendor_autoload_location = $_SERVER['DOCUMENT_ROOT'] . '/../vendor/autoload.php';
+if (file_exists($vendor_autoload_location))
+{
+	require $vendor_autoload_location;
+}
 
-// Autoload classes
+// Load custom classes
 spl_autoload_register(function ($class_name)
 {
-	$file_name = $_SERVER['DOCUMENT_ROOT'] . '/../classes/' . $class_name . '.php';
-	if (file_exists($file_name))
+	// Check if Class
+	$location = $_SERVER['DOCUMENT_ROOT'] . '/../classes/' . $class_name . '.php';
+	if (file_exists($location))
 	{
-		require_once $file_name;
+		require_once $location;
 	}
 	else
 	{
-		// Not a class? Maybe it's an element
-		$file_name = $_SERVER['DOCUMENT_ROOT'] . '/../elements/' . $class_name . '.php';
-		if (file_exists($file_name))
+		// Check if Controller
+		$location = $_SERVER['DOCUMENT_ROOT'] . '/../controllers/' . $class_name . '.php';
+		if (file_exists($location))
 		{
-			require_once $file_name;
+			require_once $location;
+		}
+		else
+		{
+			// Check if Element
+			$location = $_SERVER['DOCUMENT_ROOT'] . '/../elements/' . $class_name . '.php';
+			if (file_exists($location))
+			{
+				require_once $location;
+			}
+			else
+			{
+				throw new Exception('Could not find class: ' . $class_name);
+			}
 		}
 	}
 });
