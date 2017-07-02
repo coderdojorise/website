@@ -1,21 +1,36 @@
 <?php
 
+/**
+ * Class GitHubAPI
+ */
 class GitHubAPI
 {
 	const BASE_URI = 'https://api.github.com/';
+	const CACHE_VERSION = '02JUL_v1';
 
-	const CACHE_VERSION = '16FEB_v1';
-
+	/**
+	 * @var GitHubAPI
+	 */
 	private static $instance = null;
+
+	/**
+	 * @var \GuzzleHttp\Client
+	 */
 	private $guzzle_client = null;
 	private $default_headers = array();
 
+	/**
+	 * GitHubAPI constructor.
+	 */
 	private function __construct()
 	{
 		$this->guzzle_client = new GuzzleHttp\Client(['base_uri' => self::BASE_URI]);
 		$this->default_headers = ['User-Agent', 'coderdojo-london'];
 	}
 
+	/**
+	 * @return GitHubAPI
+	 */
 	public static function get()
 	{
 		if (is_null(self::$instance))
@@ -25,11 +40,18 @@ class GitHubAPI
 		return self::$instance;
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getDefaultHeaders()
 	{
 		return $this->default_headers;
 	}
 
+	/**
+	 * @param $username
+	 * @return array
+	 */
 	public function getUserRepos($username)
 	{
 		$cache_key = 'gh_repos' . self::CACHE_VERSION . $username;
@@ -48,7 +70,7 @@ class GitHubAPI
 			$headers = $this->getDefaultHeaders();
 
 			$response = $this->guzzle_client->get($uri, ['headers' => $headers, 'query' => $query]);
-			$body = (string) $response->getBody();
+			$body = (string)$response->getBody();
 			$json_data = json_decode($body);
 
 			foreach ($json_data as $object)
@@ -65,12 +87,20 @@ class GitHubAPI
 				$repos[] = $cur_repo;
 			}
 		}
-		catch (Exception $e){}
+		catch (Exception $e)
+		{
+		}
 
 		TempCache::put($cache_key, $repos, TempCache::TIME_HALF_HOUR);
 		return $repos;
 	}
 
+	/**
+	 * @param string $owner
+	 * @param string $repo
+	 * @param string $path
+	 * @return array
+	 */
 	public function getFileContents($owner, $repo, $path)
 	{
 		$cache_key = 'gh_filec' . self::CACHE_VERSION . $owner . $repo . $path;
@@ -88,7 +118,7 @@ class GitHubAPI
 			$headers = $this->getDefaultHeaders();
 
 			$response = $this->guzzle_client->get($uri, ['headers' => $headers, 'query' => $query]);
-			$body = (string) $response->getBody();
+			$body = (string)$response->getBody();
 			$json_data = json_decode($body);
 
 			$file_info = array();
@@ -98,7 +128,9 @@ class GitHubAPI
 				$file_info[$key] = $value;
 			}
 		}
-		catch (Exception $e){}
+		catch (Exception $e)
+		{
+		}
 		TempCache::put($cache_key, $file_info, TempCache::TIME_HALF_HOUR);
 		return $file_info;
 	}
