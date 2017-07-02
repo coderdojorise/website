@@ -16,7 +16,9 @@ if (file_exists($config_location))
 	require $config_location;
 }
 
-define('DEV_MODE', 1);
+// Determine if in Development mode (localhost)
+$localhost = (strstr($_SERVER['HTTP_HOST'], 'localhost') !== false);
+define('DEV_MODE', $localhost);
 // Development Mode: Enable (1) or Disable (0) - Comes from config file
 if (DEV_MODE)
 {
@@ -24,7 +26,6 @@ if (DEV_MODE)
 	ini_set('display_startup_errors', DEV_MODE);
 	error_reporting(E_ALL);
 }
-
 
 // API KEYS CONFIG FILE
 require_once $_SERVER['DOCUMENT_ROOT'] . '/../../config/api_keys.php';
