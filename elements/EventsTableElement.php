@@ -1,10 +1,20 @@
 <?php
 
+/**
+ * Class EventsTableElement
+ */
 class EventsTableElement extends Element
 {
 	const MAX_NEXT_EVENTS = 5;
+
+	/**
+	 * @var array
+	 */
 	private $events = array();
 
+	/**
+	 * EventsTableElement constructor.
+	 */
 	public function __construct()
 	{
 		$events = EventsFetcher::getEvents();
@@ -14,10 +24,18 @@ class EventsTableElement extends Element
 			$this->events[] = $event->toArray();
 		}
 	}
+
+	/**
+	 * @return array
+	 */
 	public function getEvents()
 	{
 		return $this->events;
 	}
+
+	/**
+	 * @return array
+	 */
 	public function getNextEvents()
 	{
 		$next_events = array();
@@ -33,6 +51,10 @@ class EventsTableElement extends Element
 		}
 		return $next_events;
 	}
+
+	/**
+	 * @return string
+	 */
 	public function getString()
 	{
 		$tpl = Template::create('elements/events_table_element.tpl');
