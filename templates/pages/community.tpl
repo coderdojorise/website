@@ -17,7 +17,7 @@
         </div>
         <div class="row text-center">
             <div class="col-sm-6">
-                <div class="panel panel-success">
+                <div class="panel panel-default panel-community">
                     <div class="panel-heading">
                         <h3 class="panel-title">For Mentors</h3>
                     </div>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="panel panel-success">
+                <div class="panel panel-default panel-community">
                     <div class="panel-heading">
                         <h3 class="panel-title">For Parents</h3>
                     </div>

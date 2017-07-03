@@ -15,7 +15,7 @@
                 <span aria-hidden="true"><i class="fa fa-times"></i></span>
             </button>
             <p style="font-size:1.2em"><i class="fa fa-whatsapp"></i> We now have WhatsApp groups for you to get in
-                touch with us! Find the invitations link on <a href="/community">our community page</a>.</p>
+                touch with us! Find the invitation links on <a href="/community">our community page</a>.</p>
         </div>
 
         {$events_tbl}

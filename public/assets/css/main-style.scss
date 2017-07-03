@@ -44,6 +44,11 @@ p.code {
 	color: $cd-purple;
 }
 
+.panel-community > .panel-heading {
+	background: $cd-black;
+	color: #FFF;
+}
+
 #cookie-law-container {
 	transition: opacity 0.3s;
 	position: fixed;
