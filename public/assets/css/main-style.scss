@@ -960,290 +960,299 @@ div.newsletter-form-container div.response-success h3 {
 /* RESPONSIVE STYLES */
 @media (max-width: 1199px) {
   div.container.homepage {
-    width: 100%;
+	width: 100%;
   }
   div.jumbotron-home {
-    padding: 20px;
+	padding: 20px;
   }
   div.jumbotron-home-container {
-    min-height: 280px;
+	min-height: 280px;
   }
   div.homepage div.home-icons-section {
-    margin: 6px;
+	margin: 6px;
   }
   div.homepage div.newsletter-form-container h4 {
-    font-size: 16px;
+	font-size: 16px;
   }
   div.resource {
-    min-height: 180px;
-    padding: 10px;
+	min-height: 180px;
+	padding: 10px;
   }
   div.resource a.resource-overlay h2.resource-title {
-    margin-top: 70px;
-    font-size: 30px;
-    width: 100%;
+	margin-top: 70px;
+	font-size: 30px;
+	width: 100%;
   }
 }
 
 @media (max-width: 991px) {
   body {
-    padding-top: 134px;
+	padding-top: 134px;
   }
   nav div.navbar-collapse ul.navbar-right > li > a {
-    padding: 20px;
+	padding: 20px;
   }
   div.jumbotron-home-container {
-    min-height: 240px;
+	min-height: 240px;
   }
   div.jumbotron-home h1 {
-    margin-top: 34px;
-    font-size: 48px;
+	margin-top: 34px;
+	font-size: 48px;
   }
   div.jumbotron-home h2 {
-    padding: 10px 30px;
-    font-size: 20px;
+	padding: 10px 30px;
+	font-size: 20px;
   }
   a.home-button {
-    padding: 10px 15px;
-    font-size: 18px;
+	padding: 10px 15px;
+	font-size: 18px;
   }
   div.homepage div.home-icons-section {
-    margin: 4px;
+	margin: 4px;
   }
   div.home-icons-section {
-    max-width: 250px;
+	max-width: 250px;
   }
   div.home-icons-section h2 {
-    font-size: 20px;
+	font-size: 20px;
   }
   div.home-icons-section p {
-    min-height: 70px;
-    font-size: 14px;
-    max-width: 90%;
+	min-height: 70px;
+	font-size: 14px;
+	max-width: 90%;
   }
   div.home-icons-section img {
-    height: 140px;
-    width: 140px;
+	height: 140px;
+	width: 140px;
   }
   div.home-full-container div.home-full-image,
   div.home-full-container div.home-full-content {
-    height: 380px;
-    width: 380px;
+	height: 380px;
+	width: 380px;
   }
   div.home-full-container div.home-full-content {
-    padding-top: 0;
+	padding-top: 0;
   }
   div.home-full-container div.home-full-content div.icon img {
-    height: 100px;
-    width: 100px;
+	height: 100px;
+	width: 100px;
   }
   div.homepage div.newsletter-form-container h4 {
-    font-size: 14px;
+	font-size: 14px;
   }
   div.home-newsletter-signup input.form-control {
-    width: 210px !important;
+	width: 210px !important;
   }
   div.events-table-next-events div.event-row {
-    border-bottom: 1px solid $cd-green;
-    padding: 10px 0;
+	border-bottom: 1px solid $cd-green;
+	padding: 10px 0;
   }
   div.resource {
-    min-height: 120px;
+	min-height: 120px;
   }
   div.resource a.resource-overlay h2.resource-title {
-    margin-top: 50px;
-    font-size: 24px;
+	margin-top: 50px;
+	font-size: 24px;
   }
   a.resource-button {
-    font-size: 1.5em;
-    width: 95%;
+	font-size: 1.5em;
+	width: 95%;
   }
   section.homepage p {
-    font-size: 22px;
+	font-size: 22px;
   }
   div.supporter-contact {
-    margin-top: 40px;
+	margin-top: 40px;
   }
   /* Bootstrap overrides */
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: initial;
+	margin-left: initial;
   }
 }
 
 /* Mobile Navigation Mode */
 @media (max-width: 767px) {
   body {
-    padding-top: 65px;
+	padding-top: 65px;
   }
   #cookie-law-container {
-    opacity: 1;
+	opacity: 1;
   }
   #cookie-law-container .container {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
   }
   nav div.navbar-collapse ul.navbar-right > li > a {
-    border-left: 5px solid;
-    border-bottom: none;
-    padding: 16px;
+	border-left: 5px solid;
+	border-bottom: none;
+	padding: 16px;
   }
   nav img.logo {
-    margin: 8px;
+	margin: 8px;
   }
   div.home-newsletter-signup {
-    margin: initial;
+	margin: initial;
   }
   div.homepage form#subscribe-form {
-    text-align: center;
+	text-align: center;
   }
   div.homepage form#subscribe-form div.form-group {
-    display: inline-block;
-    vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
   }
   div.home-full-container div.home-full-image,
   div.home-full-container div.home-full-content {
-    height: 400px;
-    width: 260px;
+	height: 400px;
+	width: 260px;
   }
   div.events-table-element table tr td a.btn {
-    padding: 5px 15px;
+	padding: 5px 15px;
   }
   div.resources-table-container table#resources-data td.col-title {
-    min-width: initial;
+	min-width: initial;
   }
   div.resources-table-container table#resources-data td.col-level {
-    min-width: initial;
+	min-width: initial;
   }
   div.resources-table-container table#resources-data .col-verified {
-    display: none;
+	display: none;
   }
   div.resource a.resource-overlay h2.resource-title {
-    margin-top: 100px;
-    font-size: 42px;
+	margin-top: 100px;
+	font-size: 42px;
   }
   a.resource-button {
-    margin: 10px auto;
-    padding: 10px;
-    font-size: 1.5em;
-    width: 80%;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 1.5em;
+	width: 80%;
   }
   section.homepage h2 {
-    font-size: 36px;
+	font-size: 36px;
   }
   section.homepage p {
-    font-size: 18px;
+	font-size: 18px;
   }
   /* Bootstrap overrides */
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
-    max-height: initial;
+	max-height: initial;
   }
   .navbar-nav {
-    margin: 10px -15px 0 -15px;
+	margin: 10px -15px 0 -15px;
   }
 }
 
 @media (max-width: 600px) {
   div.resource a.resource-overlay h2.resource-title {
-    margin-top: 60px;
-    font-size: 30px;
-    width: 90%;
+	margin-top: 60px;
+	font-size: 30px;
+	width: 90%;
+  }
+  div.container.supporters div.well.address {
+  	display: none;
   }
 }
 
 @media (max-width: 500px) {
   form#subscribe-form {
-    text-align: center;
+	text-align: center;
   }
   div.home-full-container div.home-full-image,
   div.home-full-container div.home-full-content {
-    height: 360px;
-    width: 100%;
+	height: 360px;
+	width: 100%;
   }
   div.events-table-next-events h3.event-title {
-    font-size: 1.6em;
+	font-size: 1.6em;
   }
   h3.faq-title {
-    font-weight: bold;
-    font-size: 26px;
+	font-weight: bold;
+	font-size: 26px;
   }
   div.newsletter-form-container .input-group {
-    width: 100%;
+	width: 100%;
   }
   div.attend div.newsletter-form-container input[type=email] {
-    min-width: initial;
+	min-width: initial;
   }
   section.homepage h2 {
-    font-size: 32px;
-    margin-top: 0;
+	font-size: 32px;
+	margin-top: 0;
   }
   section.homepage h2 i.fa {
-    font-size: 56px;
+	font-size: 56px;
   }
   section.homepage p {
-    font-size: 14px;
+	font-size: 14px;
   }
   div.resources-table-container table#resources-data td.col-type {
-    min-width: initial;
+	min-width: initial;
   }
   div.resources-table-container table#resources-data .col-description {
-    max-width: 120px;
-    overflow: hidden;
-    word-wrap: break-word;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+	max-width: 120px;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: nowrap;
+	text-overflow: ellipsis;
   }
 }
 
 @media (max-width: 460px) {
   div.resource a.resource-overlay h2.resource-title {
-    font-size: 24px
+	font-size: 24px
   }
   div.resources-table-container table#resources-data .col-level {
-    display: none;
+	display: none;
   }
 }
 
 @media (max-width: 420px) {
   section.homepage h2 {
-    font-size: 28px;
+	font-size: 28px;
   }
 }
 
 @media (max-width: 390px) {
   div.events-table-element table .col-date,
   div.events-table-element table .col-time {
-    display: none;
+	display: none;
   }
   div.events-table-element table .col-minidate {
-    display: table-cell;
+	display: table-cell;
   }
   div.resource a.resource-overlay h2.resource-title {
-    margin-top: 40px;
-    font-size: 18px;
+	margin-top: 40px;
+	font-size: 18px;
   }
   a.resource-button {
-    font-size: 1.2em;
-    width: 100%;
+	font-size: 1.2em;
+	width: 100%;
   }
   div.resources-table-container table#resources-data .col-type {
-    display: none;
+	display: none;
   }
   div.col-xs-6 {
-    padding: 0 5px;
+	padding: 0 5px;
   }
   section.homepage h2 {
-    margin-top: 30px;
-    font-size: 22px;
+	margin-top: 30px;
+	font-size: 22px;
   }
   section.homepage h2 i.fa {
-    font-size: 42px;
+	font-size: 42px;
   }
   div.supporter-contact {
-    width: 270px;
-    padding: 20px;
-    height: 270px;
-    font-size: 14px;
+	width: 270px;
+	padding: 20px;
+	height: 270px;
+	font-size: 14px;
+  }
+  div.supporter-contact ul.social-links li {
+  	width: 38px;
+  }
+  div.supporter-contact ul.social-links li a {
+  	font-size: 38px;
   }
 }

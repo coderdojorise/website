@@ -24,9 +24,16 @@
 		</div>
 
 		<div class="col-xs-4 supporter resource">
-			<img src="/assets/imgs/logos/kano.png" class="resource-logo" alt="iDEA" />
+			<img src="/assets/imgs/logos/kano.png" class="resource-logo" alt="Kano Computing" />
 			<a class="resource-overlay" href="/supporters/kano">
 				<h2 class="resource-title">Kano</h2>
+			</a>
+		</div>
+
+		<div class="col-xs-4 supporter resource">
+			<img src="/assets/imgs/logos/primo-toys.png" class="resource-logo" alt="Primo Toys" />
+			<a class="resource-overlay" href="/supporters/primo-toys">
+				<h2 class="resource-title">Primo Toys</h2>
 			</a>
 		</div>
 
@@ -43,8 +50,6 @@
 				<h2 class="resource-title">The Pi Hut</h2>
 			</a>
 		</div>
-
-
 
 	</div>
 </div>

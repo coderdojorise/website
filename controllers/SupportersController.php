@@ -12,6 +12,9 @@ class SupportersController extends Controller
 		),
 		'idea' => array(
 			'title' => 'iDEA'
+		),
+		'primo-toys' => array(
+			'title' => 'Primo Toys'
 		)
 	);
 
