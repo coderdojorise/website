@@ -23,10 +23,14 @@ $router->map('GET', '/resources/[:topic]', 'ResourcesController::display', 'reso
 $router->map('GET', '/supporters', 'SupportersController::display', 'supporters_home');
 $router->map('GET', '/supporters/[:supporter]', 'SupportersController::display', 'supporter_entity');
 // Supporters: iDEA Spring Competition
-$router->map('GET', '/supporters/idea/spring-competition', 'SupportersController::displayIDEACompetition', 'supporter_idea_competition');
+$router->map('GET', '/supporters/idea/coderdojo-competition', 'SupportersController::displayIDEACompetition', 'supporter_idea_competition');
 $router->map('GET', '/supporters/idea/march-competition', function()
 {
-	Request::redirect('/supporters/idea/spring-competition', true);
+	Request::redirect('/supporters/idea/coderdojo-competition', true);
+});
+$router->map('GET', '/supporters/idea/spring-competition', function()
+{
+	Request::redirect('/supporters/idea/coderdojo-competition', true);
 });
 
 // Community

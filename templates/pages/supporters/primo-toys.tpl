@@ -40,7 +40,7 @@
 				<p>Use the contact options below to get in touch with Primo Toys.</p>
 				<ul class="social-links">
 					<li>
-						<a href="https://www.primotoys.com" title="Primo Toys website" target="_blank">
+						<a href="https://www.primotoys.com/playroom/" title="Primo Toys website" target="_blank">
 							<i class="fa fa-globe"></i>
 						</a>
 					</li>
@@ -75,6 +75,19 @@
 		</div>
 		<div class="col-sm-4 hidden-xs">
 			<div class="icon-container purple-icon"><i class="fa fa-book"></i></div>
+		</div>
+	</div>
+
+	<hr />
+	<div class="row">
+		<div class="col-sm-8">
+			<h3>Primo Toys Offer</h3>
+			<p>Our wonderful friends at Primo Toys are proud to offer all club members discounts on all their products. Use the following product code: <strong>CoderDojo5OFF</strong></p>
+
+			<p><a href="https://www.primotoys.com/CoderDojo5OFF" class="btn btn-info" target="_blank"><i class="fa fa-shopping-cart"></i> check out their store here</a></p>
+		</div>
+		<div class="col-sm-4 hidden-xs">
+			<img src="https://www.primotoys.com/wp-content/uploads/2016/07/Cubetto-Shop-e1500897979763-1280x0-c-default.png" class="img-responsive" style="max-width:200px;display:block;margin:0 auto;" />
 		</div>
 	</div>
 

@@ -83,10 +83,10 @@ class SupportersController extends Controller
 		$breadcrumb_el->addCrumb('Home', '/');
 		$breadcrumb_el->addCrumb('Supporters', '/supporters');
 		$breadcrumb_el->addCrumb('iDEA', '/supporters/idea');
-		$breadcrumb_el->addCrumb('Spring Competition', '/supporters/idea/spring-competition', 'supporters');
+		$breadcrumb_el->addCrumb('CoderDojo Competition', '/supporters/idea/coderdojo-competition', 'supporters');
 		$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-		$tpl->assign('page_title', 'iDEA and CoderDojo Spring Competition 2017');
+		$tpl->assign('page_title', 'iDEA and CoderDojo Competition 2017');
 
 		$tpl->display();
 	}
