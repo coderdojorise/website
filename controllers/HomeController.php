@@ -4,7 +4,14 @@ class HomeController extends Controller
 {
 	public static function display()
 	{
-		// Force redirect to coderdojo.com
-		Request::redirect('https://coderdojo.com');
+		$tpl = Template::create('pages/index.tpl');
+
+		$breadcrumb_el = new BreadcrumbsElement();
+		$breadcrumb_el->addCrumb('Home', '/', 'active');
+		$tpl->addElement('breadcrumbs', $breadcrumb_el);
+
+		$tpl->assign('page_title', 'CoderDojo - Be Cool and get involved');
+
+		$tpl->display();
 	}
 }
