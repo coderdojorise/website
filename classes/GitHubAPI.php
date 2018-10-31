@@ -6,7 +6,7 @@
 class GitHubAPI
 {
 	const BASE_URI = 'https://api.github.com/';
-	const CACHE_VERSION = '02JUL_v1';
+	const CACHE_VERSION = '311018-2155';
 
 	/**
 	 * @var GitHubAPI
