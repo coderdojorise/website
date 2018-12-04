@@ -10,14 +10,6 @@
     </div>
     <div class="container attend">
 
-        <div class="alert alert-info alert-dismissible">
-            <button type="button" class="close" style="font-size: 24px;" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true"><i class="fa fa-times"></i></span>
-            </button>
-            <p style="font-size:1.2em"><i class="fa fa-whatsapp"></i> We now have WhatsApp groups for you to get in
-                touch with us! Find the invitation links on <a href="/community">our community page</a>.</p>
-        </div>
-
         {$events_tbl}
         {include file="partials/newsletter_form.tpl" list="main" text="Sign up to receive an email for upcoming London Dojos"}
 
