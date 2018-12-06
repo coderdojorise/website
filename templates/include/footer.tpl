@@ -31,8 +31,8 @@
                         <a href="/community">WhatsApp Groups</a>
                     </div>
                     <div class="col-sm-3 hidden-xs">
-                        <a href="mailto:hi@coderdojo.london" title="Send an email to CoderDojo London">
-                            <i class="fa fa-envelope"></i> hi@coderdojo.london
+                        <a href="mailto:hi@coderdojorise.com" title="Send an email to CoderDojo London">
+                            <i class="fa fa-envelope"></i> hi@coderdojorise.com
                         </a>
                     </div>
                 </div>
@@ -45,18 +45,14 @@
                 CoderDojo London &copy; {date('Y')}
             </div>
             <div class="col-xs-6 footer-social">
-                <a href="https://github.com/coderdojo-london" title="Check out our GitHub repositories, including this website" target="_blank">
+                <a href="https://github.com/coderdojorise" title="Check out our GitHub repositories, including this website" target="_blank">
                     <i class="fa fa-github"></i>
                 </a>
+                <!--
                 <a href="https://twitter.com/CDWhitechapel" title="Follow us on Twitter for the latest updates" target="_blank">
                     <i class="fa fa-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com/coderdojo.ldn" title="Like us on Facebook to keep up to date with our events" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="https://uk.linkedin.com/company/coderdojo-london" title="Find our team of volunteers on LinkedIn" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                </a>
+                </a>               
+                -->
             </div>
         </div>
     </div>

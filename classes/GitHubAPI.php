@@ -6,7 +6,7 @@
 class GitHubAPI
 {
 	const BASE_URI = 'https://api.github.com/';
-	const CACHE_VERSION = '311018-2200';
+	const CACHE_VERSION = '061218-2003';
 
 	/**
 	 * @var GitHubAPI
@@ -25,7 +25,7 @@ class GitHubAPI
 	private function __construct()
 	{
 		$this->guzzle_client = new GuzzleHttp\Client(['base_uri' => self::BASE_URI]);
-		$this->default_headers = ['User-Agent', 'coderdojo-london'];
+		$this->default_headers = ['User-Agent', 'coderdojorise'];
 	}
 
 	/**

@@ -46,7 +46,7 @@
 			<li>Most Influential individual (using the iDEA Influencer badge, the person who can create the highest number of referrals in any given week from 1st March to 10th December, 2017).</li>
 		</ul>
 
-	<p>For any questions or inquries about the criteria or categories, please email us at ideacompetition@coderdojo.london.</p>
+	<p>For any questions or inquries about the criteria or categories, please email us at ideacompetition@coderdojorise.com.</p>
 
 	<a href="/assets/imgs/campaigns/idea_spring_spread.jpg" target="_blank">
 		<img src="/assets/imgs/campaigns/idea_spring_spread.jpg" alt="iDEA Spring Competition CoderDojo Spread" style="max-width: 40%;margin:0 auto" />

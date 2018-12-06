@@ -1,4 +1,4 @@
-# coderdojo.london Contributors
+# coderdojorise.com Contributors
 
 These are the people who constantly contribute to this project, checkout their GitHub profiles if you get a chance! The list is sorted alphabetically.
 
