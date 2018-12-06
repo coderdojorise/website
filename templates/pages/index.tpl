@@ -85,9 +85,9 @@
 					<img src="/assets/imgs/homepage-icons/chat.png" />
 				</div>
 				<h2>Hey There!</h2>
-				<p>Please take in mind we are still in the process of polishing and making this the best website and community ever! We're always listening and learning - so please send us your feedback at <strong>feedback@coderdojo.london</strong>.
+				<p>Please take in mind we are still in the process of polishing and making this the best website and community ever! We're always listening and learning - so please send us your feedback at <strong>feedback@coderdojorise.com</strong>.
 					<br /><br />Thanks for visiting!</p>
-					<a href="mailto:dev@coderdojo.london" class="home-button blue">Get in Touch</a>
+					<a href="mailto:dev@coderdojorise.com" class="home-button blue">Get in Touch</a>
 				</div>
 			</div>
 			<div class="home-full-image" style="background-image: url('/assets/imgs/herythere_homepage.png')"></div>

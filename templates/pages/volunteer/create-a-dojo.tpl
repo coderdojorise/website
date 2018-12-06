@@ -17,7 +17,7 @@
 	<hr />
 	<div class="row">
 		<div class="col-sm-12">
-			<p>Setting up a CoderDojo is an exciting and straightforward process. If you run into something you can not figure out then email <a href="mailto:startup@coderdojo.london">startup@coderdojo.london</a>. If it looks like inspiring chaos you probably got it right!</p>
+			<p>Setting up a CoderDojo is an exciting and straightforward process. If you run into something you can not figure out then email <a href="mailto:startup@coderdojorise.com">startup@coderdojorise.com</a>. If it looks like inspiring chaos you probably got it right!</p>
 			<p>The CoderDojo format is the result of intensive design, development and a lot of real world testing completed by the founders in the original Dojo in Cork, Ireland and refined by volunteers who created their own Dojos in communities and businesses. CoderDojo is an open source learning environment that really delivers.</p>
 
 			<p>CoderDojos are free! Really, <strong>FREE</strong> and there is no central organisation that wants to charge you. It is full of fun and freedom for young people. If you need anything for your CoderDojo go out and ask your local community; its leaders in business and government.</p>

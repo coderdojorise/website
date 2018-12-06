@@ -7,7 +7,7 @@ class ResourcesFetcher
 	private function __construct()
 	{
 		// Get the resources index file
-		$file = self::get_github_api()->getFileContents('coderdojo-london', 'resources', 'index.json');
+		$file = self::get_github_api()->getFileContents('coderdojorise', 'resources', 'index.json');
 		$file_contents = file_get_contents($file['download_url']);
 		$file_json = json_decode($file_contents);
 		$this->available_categories = $file_json->categories;
@@ -31,7 +31,7 @@ class ResourcesFetcher
 		if (in_array($type, $this->available_categories))
 		{
 			$path = $type . '/index.json';
-			$file = self::get_github_api()->getFileContents('coderdojo-london', 'resources', $path);
+			$file = self::get_github_api()->getFileContents('coderdojorise', 'resources', $path);
 			$file_contents = file_get_contents($file['download_url']);
 			$file_json = json_decode($file_contents);
 			$resources = $file_json->resources;
