@@ -50,7 +50,7 @@ class SupportersController extends Controller
 		$breadcrumb_el->addCrumb('Supporters', '/supporters', 'supporters');
 		$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-		$tpl->assign('page_title', 'Supporters and Sponsors of CoderDojo London');
+		$tpl->assign('page_title', 'Supporters and Sponsors of CoderDojo RISE');
 
 		$tpl->display();
 	}
