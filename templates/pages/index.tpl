@@ -65,20 +65,6 @@
 	<hr />
 
 	<div class="home-full-container">
-		<div class="home-full-image" style="background-image: url('/assets/imgs/idea_homepage_banner.png')"></div>
-		<div class="home-full-content purple" onclick="window.location='/supporters/idea'">
-			<div class="home-icons-section">
-				<div class="icon">
-					<img src="/assets/imgs/homepage-icons/sponsored-trophy.png" />
-				</div>
-				<h2>Duke of York iDEA Competition</h2>
-				<p>HRH The Duke of York, KG will be rewarding our ninja's in our recent Spring Competition. Discover more about this great initiative.</p>
-				<a href="/supporters/idea" class="home-button orange">Find Out More</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="home-full-container">
 		<div class="home-full-content white">
 			<div class="home-icons-section" style="cursor: default">
 				<div class="icon">
