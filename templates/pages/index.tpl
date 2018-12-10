@@ -44,7 +44,7 @@
 
 		<div class="home-icons-section" onclick="window.location='/resources'">
 			<div class="icon">
-				<img src="/assets/imgs/homepage-icons/resources.png" alt="Free Resources by CoderDojo London" />
+				<img src="/assets/imgs/homepage-icons/resources.png" alt="Free Resources by CoderDojo RISE" />
 			</div>
 			<h2 class="cd-red">FREE Resources</h2>
 			<p>Discover and explore our awesome resource database and then create anything you can imagine!</p>
@@ -53,7 +53,7 @@
 
 		<div class="home-icons-section" onclick="window.location='/supporters/idea'">
 			<div class="icon">
-				<img src="/assets/imgs/homepage-icons/supporters.png" alt="CoderDojo London Supporters" />
+				<img src="/assets/imgs/homepage-icons/supporters.png" alt="CoderDojo RISE Supporters" />
 			</div>
 			<h2 class="cd-purple">Supporters</h2>
 			<p>Amazing Supporters that have generously provided pro-bono services or discounts on their own products to us and to the wider CoderDojo community.</p>
@@ -96,7 +96,7 @@
 		<hr />
 
 		<div class="home-newsletter-signup">
-			{include file="partials/newsletter_form.tpl" list="main" text="Sign up to be on the CoderDojo London List to ensure you're alerted for the next Dojo near you."}
+			{include file="partials/newsletter_form.tpl" list="main" text="Sign up to be on the CoderDojo RISE List to ensure you're alerted for the next Dojo near you."}
 		</div>
 
 	</div>

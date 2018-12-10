@@ -11,7 +11,7 @@
 </div>
 
 <div class="container supporters">
-	<p>CoderDojo London is generously supported by awesome partners that provide pro-bono services or discounts on their own products to us and the wider CoderDojo community.</p>
+	<p>CoderDojo RISE is generously supported by awesome partners that provide pro-bono services or discounts on their own products to us and the wider CoderDojo community.</p>
 	<p>This contribution is provided by organisations and philanthropists that have similar visions and missions to CoderDojo. They're equally passionate about our vision: a world in which young people have the opportunity to learn code and be creative in a safe and social environment.</p>
 
 	<div class="row">

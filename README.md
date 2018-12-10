@@ -1,6 +1,6 @@
-# CoderDojo London Website
+# CoderDojo RISE Website
 
-This is the official repository for the new CoderDojo London's website: https://coderdojorise.com
+This is the official repository for the new CoderDojo RISE's website: https://coderdojorise.com
 
 This `README` file should have a good short description on how to get you started, however, it is **incomplete** so let us know if you need any assistance by opening an issue.
 
