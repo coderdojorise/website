@@ -62,7 +62,7 @@
 
 			<p>These range in difficulty to suit all ability groups. If you have a challenge idea, contact Kano using the method above and they will create it for you.</p>
 
-			<a href="https://kano.me/educators/lesson-plans" class="btn btn-info" target="_blank">Find Out More</a>
+			<a href="https://kano.me/educators/resources" class="btn btn-info" target="_blank">Find Out More</a>
 		</div>
 		<div class="col-sm-4 hidden-xs">
 			<div class="icon-container purple-icon"><i class="fa fa-book"></i></div>
