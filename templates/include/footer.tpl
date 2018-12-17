@@ -42,7 +42,7 @@
     <div class="footer-bottom">
         <div class="container-fluid">
             <div class="col-xs-6">
-                CoderDojo London &copy; {date('Y')}
+                CoderDojo RISE &copy; {date('Y')}
             </div>
             <div class="col-xs-6 footer-social">
                 <a href="https://github.com/coderdojorise" title="Check out our GitHub repositories, including this website" target="_blank">
