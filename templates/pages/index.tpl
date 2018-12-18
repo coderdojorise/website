@@ -72,7 +72,7 @@
 					<img src="/assets/imgs/homepage-icons/sponsored-trophy.png" />
 				</div>
 				<h2>Duke of York iDEA Competition</h2>
-				<p>HRH The Duke of York, KG will be rewarding our ninja's in our recent Spring Competition. Discover more about this great initiative.</p>
+				<p>HRH The Duke of York, KG will be rewarding our ninjas in our recent Spring Competition. Discover more about this great initiative.</p>
 				<a href="/supporters/idea" class="home-button orange">Find Out More</a>
 			</div>
 		</div>
