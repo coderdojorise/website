@@ -13,6 +13,9 @@ class SupportersController extends Controller
 		'idea' => array(
 			'title' => 'iDEA'
 		),
+		'nutrificient-life' => array(
+			'title' => 'Nutrificient Life'
+		),
 		'primo-toys' => array(
 			'title' => 'Primo Toys'
 		)

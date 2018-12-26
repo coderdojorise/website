@@ -36,6 +36,12 @@
 				<h2 class="resource-title">Primo Toys</h2>
 			</a>
 		</div>
+		<div class="col-xs-4 supporter resource">
+			<img src="/assets/imgs/logos/nutrificient-life.png" class="resource-logo" alt="Nutrificient Life" />
+			<a class="resource-overlay" href="/supporters/nutrificient-life">
+				<h2 class="resource-title">Nutrificient Life</h2>
+			</a>
+		</div>
 
 		<div class="col-xs-4 supporter resource">
 			<img src="/assets/imgs/logos/raspberry-pi.png" class="resource-logo" alt="Raspberry Pi" />
