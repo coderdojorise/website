@@ -41,5 +41,3 @@ The project heavily relies on the following packages (found in the `composer.jso
 
 ## Collaborate
 The project can be worked on by as many people as possible and we encourage you to help develop it by creating an issue or a pull request.
-
-See the list of [main contributors here](CONTRIBUTORS.md).
