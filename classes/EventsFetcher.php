@@ -20,7 +20,7 @@ class EventsFetcher
 	 */
 	private function __construct()
 	{
-		$file = self::get_github_api()->getFileContents('coderdojo-london', 'events', 'events.json');
+		$file = self::get_github_api()->getFileContents('coderdojorise', 'events', 'events.json');
 		$file_contents = file_get_contents($file['download_url']);
 		$file_json = json_decode($file_contents);
 		$events_json = $file_json->events;

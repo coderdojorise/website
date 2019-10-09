@@ -14,7 +14,7 @@
 
 	<div>
 		<p>Awesome and the wonderful friends of CoderDojo have provided some great resources for you to learn, explore and enjoy.</p>
-		<p>There's a mixture of both companies and pure programming languages. Some resources will have particular mentors that can assist you in your knowledge boost, while others have companies that can offer discounts on products that also assist you through your jouney.</p>
+		<p>There's a mixture of both companies and pure programming languages. Some resources will have particular mentors that can assist you in your knowledge boost, while others have companies that can offer discounts on products that also assist you through your journey.</p>
 
 		<h5>There are 3 levels of resources:</h5>
 		<ul>
@@ -22,7 +22,7 @@
 				<strong>Starting out:</strong> choose this if you're new to this language or want to refresh your skills.
 			</li>
 			<li>
-				<strong>Some experience:</strong> this level is for ninjas that have mastered the basics and looking to advance their skills.
+				<strong>Some experience:</strong> this level is for ninjas that have mastered the basics and are looking to advance their skills.
 			</li>
 			<li>
 				<strong>Very experienced:</strong> so you think you're good? Take on these challenges to become a Master!
@@ -31,16 +31,16 @@
 		<h5>There are 4 types of resources:</h5>
 		<ul>
 			<li>
-				<strong>Sushi Cards:</strong> Very similar to Japanese dish, these cards are bite size lessons to learn quick and small tasks.
+				<strong>Sushi Cards:</strong> Very similar to the Japanese dish, these cards are bite-size lessons to learn small, quick tasks.
 			</li>
 			<li>
-				<strong>Guide Cards:</strong> tutorial style cards, that take you through an adventurial style lesson that's more than just a single task that you've gained form a Sushi Card.
+				<strong>Guide Cards:</strong> tutorial style cards, that take you through an adventure-style lesson that's more than just a single task that you've gained form a Sushi Card.
 			</li>
 			<li>
-				<strong>External Resource:</strong> this will take you to one of our partner's sites that have some great resources to use.
+				<strong>External Resource:</strong> this will take you to one of our partners' sites that have some great resources to use.
 			</li>
 			<li>
-				<strong>Assets:</strong> this will be a file that will be assets (such as jpegs, pngs, mpegs, etc) that you'll require to do some exercises.
+				<strong>Assets:</strong> this will be a file of assets (such as image or sound files, etc) that you'll require in order to complete some exercises.
 			</li>
 		</ul>
 	</div>

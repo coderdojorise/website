@@ -1,6 +1,6 @@
-# CoderDojo London Website
+# CoderDojo RISE Website
 
-This is the official repository for the new CoderDojo London's website: https://coderdojo.london
+This is the official repository for the new CoderDojo RISE's website: https://coderdojorise.com
 
 This `README` file should have a good short description on how to get you started, however, it is **incomplete** so let us know if you need any assistance by opening an issue.
 
@@ -10,7 +10,7 @@ The current project has a bespoke PHP framework which is currently being tested 
 ### Folder Structure
 The project has a predefined structure in order to make everything work as expected. A special `config` folder needs to be present at the same root level has this website repository, this config folder is used to store sensitive information such as API keys:
 ```
-_ coderdojo.london (Root)
+_ coderdojorise.com (Root)
 \__ website (This Repository)
 \__ config (Configuration Store)
 \__ vagrant-box (Place to store your vagrant box)

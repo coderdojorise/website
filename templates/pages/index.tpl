@@ -44,7 +44,7 @@
 
 		<div class="home-icons-section" onclick="window.location='/resources'">
 			<div class="icon">
-				<img src="/assets/imgs/homepage-icons/resources.png" alt="Free Resources by CoderDojo London" />
+				<img src="/assets/imgs/homepage-icons/resources.png" alt="Free Resources by CoderDojo RISE" />
 			</div>
 			<h2 class="cd-red">FREE Resources</h2>
 			<p>Discover and explore our awesome resource database and then create anything you can imagine!</p>
@@ -53,7 +53,7 @@
 
 		<div class="home-icons-section" onclick="window.location='/supporters/idea'">
 			<div class="icon">
-				<img src="/assets/imgs/homepage-icons/supporters.png" alt="CoderDojo London Supporters" />
+				<img src="/assets/imgs/homepage-icons/supporters.png" alt="CoderDojo RISE Supporters" />
 			</div>
 			<h2 class="cd-purple">Supporters</h2>
 			<p>Amazing Supporters that have generously provided pro-bono services or discounts on their own products to us and to the wider CoderDojo community.</p>
@@ -65,29 +65,15 @@
 	<hr />
 
 	<div class="home-full-container">
-		<div class="home-full-image" style="background-image: url('/assets/imgs/idea_homepage_banner.png')"></div>
-		<div class="home-full-content purple" onclick="window.location='/supporters/idea'">
-			<div class="home-icons-section">
-				<div class="icon">
-					<img src="/assets/imgs/homepage-icons/sponsored-trophy.png" />
-				</div>
-				<h2>Duke of York iDEA Competition</h2>
-				<p>HRH The Duke of York, KG will be rewarding our ninja's in our recent Spring Competition. Discover more about this great initiative.</p>
-				<a href="/supporters/idea" class="home-button orange">Find Out More</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="home-full-container">
 		<div class="home-full-content white">
 			<div class="home-icons-section" style="cursor: default">
 				<div class="icon">
 					<img src="/assets/imgs/homepage-icons/chat.png" />
 				</div>
 				<h2>Hey There!</h2>
-				<p>Please take in mind we are still in the process of polishing and making this the best website and community ever! We're always listening and learning - so please send us your feedback at <strong>feedback@coderdojo.london</strong>.
+				<p>Please take in mind we are still in the process of polishing and making this the best website and community ever! We're always listening and learning - so please send us your feedback at <strong>feedback@coderdojorise.com</strong>.
 					<br /><br />Thanks for visiting!</p>
-					<a href="mailto:dev@coderdojo.london" class="home-button blue">Get in Touch</a>
+					<a href="mailto:dev@coderdojorise.com" class="home-button blue">Get in Touch</a>
 				</div>
 			</div>
 			<div class="home-full-image" style="background-image: url('/assets/imgs/herythere_homepage.png')"></div>
@@ -96,7 +82,7 @@
 		<hr />
 
 		<div class="home-newsletter-signup">
-			{include file="partials/newsletter_form.tpl" list="main" text="Sign up to be on the CoderDojo London List to ensure you're alerted for the next Dojo near you."}
+			{include file="partials/newsletter_form.tpl" list="main" text="Sign up to be on the CoderDojo RISE List to ensure you're alerted for the next Dojo near you."}
 		</div>
 
 	</div>

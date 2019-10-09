@@ -95,8 +95,8 @@
             </div>
             <div class="col-sm-9 text-right">
                 <h3 class="faq-title">Does it cost anything?</h3>
-                <p>100% free and always will be. CoderDojo is run by a committed, fun loving volunteers and corporate
-                    partners. Want to also join in, check out how to by clicking here.</p>
+                <p>100% free and always will be. The dojo is run by committed, fun-loving volunteers and supported by corporate
+                    partners. Want to help? <a href="volunteer">Click here</a>.</p>
             </div>
         </div>
 

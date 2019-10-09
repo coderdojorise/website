@@ -11,7 +11,7 @@
 </div>
 
 <div class="container supporters">
-	<p>CoderDojo London is generously supported by awesome partners that provide pro-bono services or discounts on their own products to us and the wider CoderDojo community.</p>
+	<p>CoderDojo RISE is generously supported by awesome partners that provide pro-bono services or discounts on their own products to us and the wider CoderDojo community.</p>
 	<p>This contribution is provided by organisations and philanthropists that have similar visions and missions to CoderDojo. They're equally passionate about our vision: a world in which young people have the opportunity to learn code and be creative in a safe and social environment.</p>
 
 	<div class="row">
@@ -34,6 +34,12 @@
 			<img src="/assets/imgs/logos/primo-toys.png" class="resource-logo" alt="Primo Toys" />
 			<a class="resource-overlay" href="/supporters/primo-toys">
 				<h2 class="resource-title">Primo Toys</h2>
+			</a>
+		</div>
+		<div class="col-xs-4 supporter resource">
+			<img src="/assets/imgs/logos/nutrificient-life.png" class="resource-logo" alt="Nutrificient Life" />
+			<a class="resource-overlay" href="/supporters/nutrificient-life">
+				<h2 class="resource-title">Nutrificient Life</h2>
 			</a>
 		</div>
 

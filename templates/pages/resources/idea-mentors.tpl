@@ -17,7 +17,7 @@
 <div class="container">
 	<p>These are resources provided by iDEA to assist the development of the badges for understanding.</p>
 
-	<p>Fabulous resources have been provided by iDEA to assist in the development and promotion of the iDEA Badges. At times, there will be print runs of some of the resources, at which stage we'll communicate and ask for a request from interested Dojos. If this is of interest to your Dojo - plesae let us know by emailing the team at <a href="mailto:ideabadges@coderdojo.london">iDEABadges@coderdojo.london</a>.</p>
+	<p>Fabulous resources have been provided by iDEA to assist in the development and promotion of the iDEA Badges. At times, there will be print runs of some of the resources, at which stage we'll communicate and ask for a request from interested Dojos. If this is of interest to your Dojo - plesae let us know by emailing the team at <a href="mailto:ideabadges@coderdojorise.com">iDEABadges@coderdojorise.com</a>.</p>
 
 	<p>All resources below have been designed to either be printed off from a personal, work or professional printer.</p>
 

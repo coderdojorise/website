@@ -9,6 +9,9 @@ class ResourcesController extends Controller
 		'javascript' => array(
 			'title' => 'JavaScript'
 		),
+		'microbit' => array(
+			'title' => 'micro:bit'
+		),
 		'scratch' => array(
 			'title' => 'Scratch'
 		),

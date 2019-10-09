@@ -11,7 +11,7 @@ class CommunityController extends Controller
 		$breadcrumb_el->addCrumb('Community', '/community', 'community active');
 		$tpl->addElement('breadcrumbs', $breadcrumb_el);
 
-		$tpl->assign('page_title', 'Join the CoderDojo London community');
+		$tpl->assign('page_title', 'Join the CoderDojo RISE community');
 
 		$tpl->display();
 	}
