@@ -9,43 +9,10 @@
         </div>
     </div>
     <div class="container community">
-        <h2><i class="fa fa-whatsapp"></i> WhatsApp Groups</h2>
+        <h2>Community Events</h2>
         <div class="well">
             <p style="font-size:1.3em">We are working on creating some awesome Community Events for the wider CoderDojo
-                network - though in the interim please join our WhatsApp groups to ensure we keep you immediately
-                updated!</p>
-        </div>
-        <div class="row text-center">
-            <div class="col-sm-6">
-                <div class="panel panel-default panel-community">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">For Mentors</h3>
-                    </div>
-                    <div class="panel-body">
-                        <a href="https://bit.ly/CoderDojoMentor" target="_blank">
-                            <img src="/assets/imgs/whatsapp_group_mentor.png" alt="WhatsApp Group for Mentors"
-                                 class="img-responsive img-circle" style="margin: 0 auto"/>
-                            <br/>
-                            <span style="font-size:1.4em">https://bit.ly/CoderDojoMentor</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="panel panel-default panel-community">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">For Parents</h3>
-                    </div>
-                    <div class="panel-body">
-                        <a href="https://bit.ly/CoderDojoParent" target="_blank">
-                            <img src="/assets/imgs/whatsapp_group_parent.png" alt="WhatsApp Group for Parents"
-                                 class="img-responsive img-circle" style="margin: 0 auto"/>
-                            <br/>
-                            <span style="font-size:1.4em">https://bit.ly/CoderDojoParent</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+                network!</p>
         </div>
         <hr/>
         {include file="partials/newsletter_form.tpl" list="mentors" text="Sign up to the community newsletters"}
